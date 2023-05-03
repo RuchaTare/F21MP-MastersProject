@@ -1,0 +1,106 @@
+[
+  {
+    "text": "let's go again",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.31029272079467773
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.3958301842212677
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.4219203591346741
+    }
+  },
+  {
+    "text": "Tell me step by step recipes",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.6026095151901245
+    }
+  },
+  {
+    "text": "Step wise",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.42587387561798096
+    }
+  },
+  {
+    "text": "list the next instruction",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.5848878026008606
+    }
+  },
+  {
+    "text": "chpice vegan butter",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.4738880395889282
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9877034425735474
+    }
+  },
+  {
+    "text": "Tell me a food trivia",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.41091009974479675
+    }
+  },
+  {
+    "text": "Give me a did you know trivia about food",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4148571789264679
+    }
+  },
+  {
+    "text": "Tell me a food joke",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.6615297794342041
+    }
+  },
+  {
+    "text": "I am okay with anything. No intolerances",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.7634949684143066
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.8717080950737
+    }
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "text": "d",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "d",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9845689535140991,
+        "value": "D",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "D",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "D",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9845689535140991,
+        "value": "D",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "healthy recipes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "for now sort by popularity",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "popularity",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 13,
+        "end": 15,
+        "confidence_entity": 0.5058545470237732,
+        "value": "by",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sort_type",
+        "start": 16,
+        "end": 26,
+        "confidence_entity": 0.998482882976532,
+        "value": "popularity",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Did the recipe have pan",
+    "entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "value": "pan",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.5884277820587158,
+        "value": "pan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "will there be ladle used?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "ladle",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is there sea salt in the recipe",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "sea salt",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.2731877267360687,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "eggs",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do we use whisk in this recipe?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "whisk",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.501836895942688,
+        "value": "potato",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9971707463264465,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 28,
+        "end": 29,
+        "confidence_entity": 0.9640258550643921,
+        "value": "n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is it traditional to use coconut milk in Thai curry?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.4722687602043152,
+        "value": "coconut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When is the best time to buy fresh strawberries?\"",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 35,
+        "end": 47,
+        "confidence_entity": 0.27165549993515015,
+        "value": "strawberries",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I dont eat sea food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "sea food",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.974734365940094,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No gluten for me",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "gluten",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.893581211566925,
+        "value": "No",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.4974949061870575,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Normally I would eat keto breakfast",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "value": "keto breakfast",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.5781232118606567,
+        "value": "keto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can we make avocado shake",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "avocado shake",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.4689488112926483,
+        "value": "avocado",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to cook Apple Cider Honey Jack Martini",
+    "entities": [
+      {
+        "start": 15,
+        "end": 45,
+        "value": "Apple Cider Honey Jack Martini",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 15,
+        "end": 32,
+        "confidence_entity": 0.6348429918289185,
+        "value": "Apple Cider Honey",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.556601881980896,
+        "value": "Martini",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

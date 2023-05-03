@@ -1,0 +1,98 @@
+[
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.2702749967575073
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.38998597860336304
+    }
+  },
+  {
+    "text": "Step wise",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.6194103360176086
+    }
+  },
+  {
+    "text": "Absolutely hate cabbagge give something else",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.550162672996521
+    }
+  },
+  {
+    "text": "chpice vegan butter",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.7502633929252625
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9165118336677551
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9957951307296753
+    }
+  },
+  {
+    "text": "Tell me a food trivia",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.994199275970459
+    }
+  },
+  {
+    "text": "Give me a did you know trivia about food",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.21646997332572937
+    }
+  },
+  {
+    "text": "Tell me a food joke",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9994350075721741
+    }
+  },
+  {
+    "text": "I am okay with anything. No intolerances",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3067464530467987
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9928805828094482
+    }
+  }
+]

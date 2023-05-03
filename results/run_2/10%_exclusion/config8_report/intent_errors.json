@@ -1,0 +1,98 @@
+[
+  {
+    "text": "/Restart",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "Restart",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is a recipe bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.6433418989181519
+    }
+  },
+  {
+    "text": "how to make this recipe step wise",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.9176516532897949
+    }
+  },
+  {
+    "text": "how to make this recipe",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9999865293502808
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.7521831393241882
+    }
+  },
+  {
+    "text": "Heathiest recipe",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9987236857414246
+    }
+  },
+  {
+    "text": "what spices are used in this recipe?",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9987074136734009
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.5945779085159302
+    }
+  },
+  {
+    "text": "Anything that has fish",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9242333173751831
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999973773956299
+    }
+  }
+]

@@ -1,0 +1,1235 @@
+version: "3.1"
+nlu:
+- intent: get_recipeid
+  examples: |
+    - [C](recipe_id)
+    - Let's go with [A](recipe_id)
+    - Give [E](recipe_id)
+    - [A](recipe_id)
+    - [a](recipe_id)
+    - I choose [B](recipe_id)
+    - 
+    - [c](recipe_id)
+    - [E](recipe_id)
+    - [e](recipe_id)
+    - [D](recipe_id)
+- intent: restart
+  examples: |
+    - RESTART
+    - start afresh
+    - restart
+    - \restart
+    - cls
+    - / restart
+    - clear all
+    - \ restart
+    - Restart
+    - /Restart
+    - let's go again
+    - clear
+- intent: bot_challenge
+  examples: |
+    - who do you identify as?
+    - are you sure you are a bot?
+    - Alana is a girl or guy?
+    - do you have any human qualities?
+    - am I talking to a human?
+    - how human are you?
+    - am I talking to a bot?
+    - Why should I chat with you?
+    - What is a recipe bot?
+    - Do you have bot qualities
+    - are you a human?
+    - human or bot?
+    - seems like you are human
+    - what is Alana?
+    - what does Alana mean?
+    - bot?
+    - are you sure you can be of use?
+    - Why are you chatting with me?
+- intent: get_previous_step
+  examples: |
+    - tell me the previous instruction
+    - back
+    - take me to last step
+    - list previous step
+    - previous step please
+    - take me to previous step
+    - previous please
+    - earlier step
+    - okay, go back
+    - go back
+    - one step back
+    - last step please
+    - what was the last instruction
+    - wait, repeat last step
+    - what was before this instruction?
+    - I havent completed previosu step
+    - can you get the previous instruction
+    - no I am not done yet go back
+    - go a step back
+- intent: get_n_step
+  examples: |
+    - find step [11](current_step_no)
+    - whoa, wait give me [first](current_step_no) step only
+    - go to [top](current_step_no)
+    - [fourth](current_step_no)
+    - go to [seventh](current_step_no) step
+    - okay, now go to step [2](current_step_no)
+    - list the step [2](current_step_no) again
+    - okay, repeat step [3](current_step_no)
+    - what was step [3](current_step_no)
+    - repeat step [1](current_step_no)
+    - on to step [fourth](current_step_no)
+    - hop to step [5](current_step_no)
+    - what is [sixth] step(current_step_no)
+    - I did not get step [10](current_step_no)
+    - step [1](current_step_no) please
+    - okay, tell me again step [1](current_step_no)
+    - give step [2](current_step_no)
+    - step [7](current_step_no)?
+    - go to [ninth](current_step_no) step
+    - give step [fifth](current_step_no)
+    - Go to step [12](current_step_no)
+    - go to step [8](current_step_no)?
+    - [third](current_step_no) step please
+    - what is step [6](current_step_no)
+    - what is step [1](current_step_no)?
+    - go to step [second](current_step_no)
+    - can you go to step [fifth](current_step_no)
+- intent: know_steps
+  examples: |
+    - give instructions for this dish
+    - how to make this recipe
+    - before anything else, display the instructions for this recipe
+    - instructions at once
+    - Instructions at once
+    - what steps should I follow
+    - instructions
+    - list all instructions
+    - perfect, now list the steps
+    - Give instructions for this dish
+    - First tell me the instructions needed for {recipename}
+    - can you tell me instructions
+    - help me with steps to follow
+    - What steps to follow for the {recipename}
+    - What instructions do I need to follow in order to make {recipename}
+    - what are the recipe instructions?
+    - What are the steps for this recipe?
+    - 3.Instructions at once
+    - give instructions at once for making {recipename}
+    - give me all the steps
+    - okay repeat steps
+    - at once
+    - AT ONCE
+    - All Instructions
+    - What are the instrcutions for {recipename}
+    - help me with recipe instructions
+    - how to make this recipe step wise
+    - give all steps at once
+    - What are the steps for {recipename}
+    - give all instructions at once
+- intent: know_equipment
+  examples: |
+    - what are pots and pans for this {recipe_name}
+    - Could you provide me with the list of equipment?
+    - Can you tell me the list of equipment?
+    - What equipment do I need to make this recipe?
+    - 2. Equipment
+    - 2.Equipment
+    - tell me the equipment again
+    - 2.equipment
+    - What are the equipment needed for this recipe?
+    - what are the utensils needed
+    - sorry but repeat equipment for me please
+    - what are pots and pans for this recipe?
+    - repeat all equipment
+    - I cannot understand anything Repeaat the equipment
+    - well, good if you could give me equipment
+    - how about you tell me the equipments used
+    - list of equipments for the dish?
+    - What are the necessary equipment?
+    - What are the things I should have to make this dish?
+    - 2.equipments
+    - equipment
+    - do you mind giving me list of equipment?
+    - may I know the equipment?
+    - hope you dont mind giving equipment
+    - equipments?
+    - Equipments
+    - 2. equipment
+    - list of utensils
+    - equipments
+    - equipment?
+    - repeat the equipment needed
+    - What equipment do I need?
+- intent: get_next_step
+  examples: |
+    - next
+    - done
+    - then what?
+    - Step wise
+    - and
+    - I choose stepwise recipe instructions
+    - go to next step
+    - one step ahead
+    - give following step
+    - what's next
+    - Tell me step by step recipes
+    - give me one by one steps for this recipe
+    - list the steps for {recipename} one by one
+    - what to do now?
+    - okay, next
+    - what comes after this?
+    - 
+    - next step please
+    - wondering if you can give next step
+    - can you get next step
+    - done, next
+    - list the next instruction
+    - ok next
+    - and then
+    - Okay, give me next step quick
+    - ahead
+    - how about next step?
+    - move on
+    - then
+    - be quick and give me next step
+    - okay this is done, move to next
+    - StepWise
+    - okay, now give me next step
+    - next please
+    - one by one
+    - what next
+    - Can you give next step?
+- intent: get_sort_type
+  examples: |
+    - [2.H](sort_type)
+    - [Heathiest](sort_type) recipe
+    - for now sort by [popularity](sort_type)
+    - fetch [popular](sort_type) recipes only
+    - I would want recipes to be sorted by [health](sort_type)
+    - [3. Random](sort_type)
+    - top [random](sort_type) recipes
+    - [1.po](sort_type)
+    - I will choose [random](sort_type)
+    - [heathly](sort_type)
+    - rank most [popular](sort_type) recipes
+    - suggest based on [popularity](sort_type)
+    - sort on basis of [health](sort_type)
+    - [1.Popularity](sort_type)
+    - fetch recipes [randomly](sort_type)
+    - [R](sort_type)
+    - [healthiness](sort_type)
+    - [1.h](sort_type)
+    - Will prefer [healthy](sort_type) recipes
+    - [3.R](sort_type)
+    - [Random](sort_type)
+    - [healthy](sort_type) recipes
+    - shuffle recipes at [random](sort_type)
+    - [3.r](sort_type)
+    - [2.Healthiness](sort_type)
+    - [2.healthiness](sort_type)
+    - [3.random](sort_type)
+    - [h](sort_type)
+    - I will go with [health](sort_type)
+    - [1. popularity](sort_type)
+    - at [random](sort_type)
+    - [H](sort_type)
+    - [Popularity](sort_type)
+    - [r](sort_type)
+    - rank recipes [randomly](sort_type)
+    - [Healthiness](sort_type)
+    - show top [healthy](sort_type) recipes
+    - [random](sort_type)
+    - give me [heathly](sort_type) recipes
+    - suggest most [popular] (sort_type)
+    - [3.Random](sort_type)
+    - [PO](sort_type)
+    - I prefer [randomness](sort_type)
+    - [2. healthiness](sort_type)
+    - I prefer [healthy](sort_type) recipes more
+    - [1.popularity](sort_type)
+- intent: confirm_recipe_items
+  examples: |
+    - any chance it requires [toast](recipe_item)?
+    - was [parmesan cheese](recipe_item) needed?
+    - was it [air fryer](recipe_item)?
+    - Do we use [kettle](recipe_item) in this recipe?
+    - was [toaster](recipe_item) needed?
+    - Is there [pressure cooker](recipe_item) in the list
+    - are we using [oven](recipe_item) here?
+    - Can you tell me if we use [Aluminium foil](recipe_item)
+    - is there any [apple](recipe_item) in it?
+    - has [basil](recipe_item)?
+    - did it need to use [spatula](recipe_item)?
+    - was it [pepperoni](recipe_item)?
+    - I want to know if we are in need of [almond flour](recipe_item)
+    - it contains [sea salt](recipe_item)?
+    - is [butternut squash](recipe_item) one of the equipment?
+    - does ingredient list have [non-fat milk](recipe_item)
+    - does it have [milk](recipe_item)?
+    - was [oven](recipe_item) used?
+    - was it [aluminium foil](recipe_item)?
+    - will this recipe have [salt](recipe_item)
+    - did you say [cookie cutter](recipe_item)?
+    - Do we use [whisk](recipe_item) in this recipe?
+    - Wonder if we used [blueberries](recipe_item) in this?
+    - to confirm it is [bell pepper](recipe_item)?
+    - It would be great if you can help me know if we use [coconut flour](recipe_item)
+    - Wonder if you said we will use [rolling pin](recipe_item)
+    - Is there [sea salt](recipe_item) in the recipe
+    - will it use [olive oil](recipe_item)
+    - is [eggs](recipe_item) in the ingredients?
+    - Do we use [berries](recipe_item) in this recipe?
+    - correct me if I am wrong, this recipe might need [himalayan sea salt](recipe_item)
+    - are we using [pasta machine](recipe_item)?
+    - was [cheese](recipe_item) in it
+    - well, did we use [sugar syrup](recipe_item) in this?
+    - does it have [almond milk](recipe_item)
+    - will there be [ladle](recipe_item) used?
+    - is there any [flour](recipe_item) in it?
+    - Did the recipe have [pan](recipe_item)
+    - Did we use [turmeric](recipe_item) here?
+    - Are there [potatoes](recipe_item) in the list
+    - have we used [chocolate chips](recipe_item)?
+    - will [peanut](recipe_item) be used?
+    - have we used [cookie cutter](recipe_item)?
+    - correct me if I am wrong, we have used [himalayan sea salt](recipe_item)
+    - it has [frying pan](recipe_item)?
+    - are we using [loaf pan](recipe_item)?
+    - Did you say [honey](recipe_item)
+    - did it contain [tahini](recipe_item)?
+    - did it contain [chickpeas](recipe_item)?
+    - it might need [cacao nibs](recipe_item) right?
+- intent: get_substitute_ingredient
+  examples: |
+    - get me substitute of [margarine](sub_ingredients)
+    - give better choice for [tapioca flour](sub_ingredients)
+    - don't have [baking soda](sub_ingredients)
+    - Can I get substitute of [vegetable oil](sub_ingredients)
+    - swap [apple](sub_ingredients)
+    - give alternative for [rice](sub_ingredients)
+    - change [onion](sub_ingredients)
+    - give me substitute of [water](sub_ingredients)
+    - get me substitute of [lard](sub_ingredients)
+    - Absolutely hate [cabbagge](sub_ingredients) give something else
+    - alternate [chocolate](sub_ingredients) with something else
+    - Can I get substitute of [salt](sub_ingredients)
+    - can anything instead of [cloves](sub_ingredients) work?
+    - needs options for [celery](sub_ingredients)
+    - I dont have [peanut butter](sub_ingredients)
+    - Hate [garlic](sub_ingredients) tell me a different ingredient
+    - Can I get substitute of [sugar](sub_ingredients)
+    - instead of [mustard](sub_ingredients) give alternative
+    - give me sub for [pepper](sub_ingredients)
+    - options for [vinegar](sub_ingredients)
+    - substitute [honey](sub_ingredients)
+    - Can I get substitute of [all purpose flour](sub_ingredients)
+    - I dont have [ghee](sub_ingredients)
+    - not allowed to have [hazelnuts](sub_ingredients) what should I use?
+    - options for [lime juice](sub_ingredients)
+    - what instead of {sub_ingredients}
+    - give me substitute of [spinach](sub_ingredients)
+    - Can I get substitute of [butter](sub_ingredients)
+    - I dont like [coconut milk](sub_ingredients) suggest a new ingredient
+    - chpice [vegan butter](sub_ingredients)
+    - give a healthier substitute for [maple syrup](sub_ingredients)
+    - dont have [chickpeas](sub_ingredients)
+    - change [basil](sub_ingredients) to something else
+    - suggest options for [butternut squash](sub_ingredients)
+    - swap [banana](sub_ingredients)
+    - could you give me alternative ingredient for [capsicum](sub_ingredients)
+    - Can I get option for [butter](sub_ingredients)
+    - can anything replace [carrots](sub_ingredients)?
+    - any other choice for [soy milk](sub_ingredients)
+    - could you give me alternative ingredient for [bell pepper](sub_ingredients)
+    - substitute [soya milk](sub_ingredients)
+    - give me healthier option for [ginger](sub_ingredients)
+    - looking for alternatives to [vanilla extract](sub_ingredients)
+    - substitute [cider](sub_ingredients)
+    - swap [sea salt](sub_ingredients) for me
+    - Can I get alternative of [butter](sub_ingredients)
+    - what if I dont have [tahini](sub_ingredients)?
+    - what if I dont have [lemon juice](sub_ingredients)
+    - change [almond flour](sub_ingredients) to something new
+    - alternative for [tumeric](sub_ingredients)
+    - alternative for [milk] (sub_ingredients)
+    - substitute for [almond butter] (sub_ingredients)
+- intent: know_ingredients
+  examples: |
+    - Could you tell me what components are necessary for {recipename}?
+    - Give ingredients
+    - Ingredients?
+    - can you please repeat the ingredients
+    - hope you dont mind giving ingredients
+    - would you please repeat ingredient list
+    - Can you tell me the list of ingredients?
+    - do you mind giving me list of ingredients?
+    - Give list of ingredients
+    - Please display the ingredients required for {recipename}.
+    - buddy, list down ingredients for me
+    - tell me the ingredients again
+    - 1.ingredient
+    - repeat ingredients
+    - show ingredients for {recipename}
+    - what all ingredients are required for this recipe?
+    - well, I need to see ingredients before I cook
+    - ingredients?
+    - what spices are used in this recipe?
+    - Please provide me with the ingredients for making {recipename}.
+    - What are the ingredients?
+    - List the components for {recipename}'s recipe.
+    - list ingredients again
+    - What are the ingredients I should have to make this dish?
+    - Obviously to start with {recipename} I need the ingredients list
+    - What ingredients do I need?
+    - What do I need to buy from store for {recipename}
+    - why not give me ingredients for this recipe
+    - What are the ingredients for {recipename}
+    - show the list of ingredients again
+    - Can you tell me what ingredients I need for {recipename}?
+    - can you please repeat the ingredient?
+    - Show me the list of ingredients for this recipe
+    - Could you give me a rundown of the ingredients for {recipename}?
+    - mention me ingredients needed
+    - ingredients
+    - Obviously ingredients before anything
+    - let me know ingredients for {recipename}
+    - 1.ingredients
+    - Could you provide me with the list of ingredients?
+    - What do I have to get from the store?
+    - quickly give me ingredients
+    - Get me ingredients
+    - What are the necessary ingredients for {recipename}'s recipe?
+    - okay, give me ingredients first
+    - can you give me list of ingredients
+    - What ingredients do I need to make this recipe?
+    - give me ingredients list for {recipename} to check if I have the stuff
+    - ingredients again
+    - Can you display the ingredients for {recipename}?
+    - 1.Ingredients
+    - Well, actually give me ingredients first
+    - 1. Ingredients
+    - ingredient
+    - What are the necessary ingredients?
+    - sorry but please repeat the n
+    - Provide the list of ingredients for {recipename}.
+- intent: get_dietary_req
+  examples: |
+    - No I have [no dietary requirements](dietary_req)
+    - [vegan](dietary_req) is better
+    - recommend me [Gluten Free](dietary_req) recipes only
+    - [vegetarian](dietary_req)
+    - I follow [vegetarianism](dietary_req)
+    - happy to be a [vegan](dietary_req)
+    - I follow [vegan](dietary_req) diet
+    - [3. GF](dietary_req)
+    - [vegan](dietary_req) for me
+    - I have a [plant based](dietary_req) lifestyle
+    - [GlutenFree](dietary_req)
+    - Give me [vegan](dietary_req) only recipes
+    - [NR](dietary_req)
+    - [GF](dietary_req)
+    - I am a [vegetarian](dietary_req)
+    - Only [vegetarian](dietary_req) dishes please.
+    - [nr](dietary_req)
+    - [No Requirements](dietary_req)
+    - I am [vegan](dietary_req)
+    - [gf](dietary_req)
+    - [none](dietary_req)
+    - [vg](dietary_req)
+    - [1.vegan](dietary_req)
+    - [G.F](dietary_req)
+    - [g.f](dietary_req)
+    - [2.vegetarian](dietary_req)
+    - [2.Vegetarian](dietary_req)
+    - [Veg](dietary_req)
+    - [no requirements](dietary_req)
+    - [No dietary requirements](dietary_req)
+    - I am a strict [vegetarian](dietary_req)
+    - I have [no requirements](dietary_req)
+    - [VG](dietary_req)
+    - [V](dietary_req)
+    - Normally I eat [vegetarian](dietary_req)
+    - [Ve](dietary_req)
+    - [4.No dietary requirements](dietary_req)
+    - [Vegetarian](dietary_req)
+    - [1. Vegan](dietary_req)
+    - [3.GF](dietary_req)
+    - I need [gluten free](dietary_req) dishes please
+    - [ve](dietary_req)
+    - [no dietary requirements](dietary_req)
+    - I am [veg](dietary_req)
+    - I prefer [vegan] options(dietary_req)
+    - [3. GlutenFree](dietary_req)
+    - [4.nr](dietary_req)
+    - [3.gf](dietary_req)
+    - [gluten free](dietary_req) for me
+    - [VE](dietary_req)
+    - [3. Gluten Free](dietary_req)
+    - [no extra requirements](dietary_req)
+    - [veg](dietary_req)
+    - I believe in [Veganism](dietary_req)
+    - No, I dont have any [requirements](dietary_req)
+    - I have a [vegan](dietary_req) lifestyle
+    - [4. No dietary requirements](dietary_req)
+    - [no requirements](dietary_req) all good.
+    - I am [ve](dietary_req)
+    - [4.NR](dietary_req)
+- intent: greet
+  examples: |
+    - Hi Alana
+    - it is good to see you
+    - hey,bottttt
+    - wake up
+    - hello, anyone there
+    - it's good to see you
+    - hiee
+    - hello
+    - ahoy hoy
+    - good evening
+    - Hello
+    - Hi friend
+    - hi alana
+    - yo
+    - let's go
+    - hiya!
+    - Hey how are you?
+    - well hello
+    - anyone there
+    - heyeeeeeeeeeeee
+    - Hi, bot
+    - hiya
+    - hola!
+    - hello bot
+    - GE
+    - hey there
+    - good to see you
+    - HI
+    - howdy, what's new
+    - hey, what's new
+    - hey alana
+    - Hey alana
+    - it's nice to see you
+    - hey man
+    - why hello
+    - Hi
+    - hi bot
+    - Hieee
+    - hi ya
+    - hey hey!
+    - well hi there
+    - Hola
+    - good morning
+    - hey
+    - morning
+    - Hey Alana
+    - ge
+    - hi hi
+    - hey how's life
+    - Hi there
+    - wassup
+    - salutations!
+    - gm
+    - Hi bot
+    - hey you
+    - goodevening
+    - hi there
+    - nice to see you
+    - aloha
+    - hey there!
+    - Whats up
+- intent: get_info_questions
+  examples: |
+    - What all parts of chicken are edible and what are not?
+    - How to identify a kangaroo
+    - What can I pair with quinoa to make a complete protein?
+    - What benefits do soaking chickpeas overnight has
+    - What does saffron taste like?
+    - What fruits and vegetables are in season in the summer?
+    - How is meriengue made?
+    - Why is India so hot?
+    - What soups are good in winters?
+    - When is mirengue called as done?
+    - What else can I use chickpeas for besides hummus?
+    - Why is saffron a common ingredient in Spanish paella?
+    - What are vegan options for pork rib?
+    - What are best wines to pair with basil pesto pasta dish?
+    - What is a cream cheese?
+    - When is the best time to buy fresh strawberries?"
+    - Can I freeze fresh basil? If so, how should I do it?
+    - How to include more lentils in food?
+    - What can I use as a vegan substitute for eggs in baking?
+    - Who discovered the benefits of turmeric?
+    - How do I clean and prepare leeks for cooking?
+    - What are some traditional Mexican ingredients that are hard to find outside of Mexico?
+    - Is it possible to get mangoes in London? Where?
+    - hmm, interesting. What is the healthiest part of a chicken?
+    - what is a clove?
+    - Where can I find fresh turmeric in my area in London?
+    - What are some ingredients that pair well with sweet potatoes?
+    - Why are almonds considered a healthy snack?
+    - Tell me a fun joke about chicken
+    - What do you mean by al dante?
+    - Suggest me wine pairings with Basil Pesto
+    - what is baking soda?
+    - What are best chaat dishes?
+    - Who discovered salt?
+    - Can I leave a pizza out overnight, or should I refrigerate it?
+    - tell me a fun fact about olive oil
+    - Is it necessary to use Chinese five-spice powder in a traditional Chinese recipe?
+    - Tell me a food joke
+    - Can eggs be used in desserts?
+    - Who traditionally uses cumin in their cooking?
+    - Tell me a food trivia
+    - Why do we soak lentils?
+    - What's the difference between all-purpose flour and bread flour
+    - How to know if fruits are gone bad?
+    - What is ziti?
+    - Which country has most vegans?
+    - What can you tell me about Pino Noir
+    - where does spinach come from originally?
+    - What are most popular dishes in scotland?
+    - Who is the best cook in the world?
+    - Is it ethical to eat seafood that's been caught using nets that can harm dolphins?
+    - How is mirengue made from eggs?
+    - What's the best way to cook Brussels sprouts?
+    - Who grows the best avocados?
+    - When do mangoes ripe?
+    - What's the best way to prepare tofu for stir-fry?
+    - What's the carbon footprint of eating beef?
+    - Which mushrooms are dangerous to humans?
+    - what is the protien requirement of our body?
+    - Which is healthier white rice or brown rice?
+    - Which country eat most pizzas?
+    - Is sugar healthy or unhealthy?
+    - Is red wine good for you?
+    - What are some ways to use kale in cooking?
+    - how is turmeric made?
+    - When do I know if bananas go bad?
+    - What's the best online store to buy specialty spices in Edinburgh?
+    - Is it safe to eat raw eggs in cookie dough?
+    - Tell me a fun statistic about pizza?
+    - Is it traditional to use coconut milk in Thai curry?
+- intent: get_intolerances
+  examples: |
+    - [1.Diary](intolerances)
+    - [diary](intolerances)
+    - [Peanuts](intolerances) makes me flare up
+    - [Peanuts](intolerances)
+    - [eggs](intolerances)
+    - No use of [seafood](intolerances) in my food
+    - [5. no Intolerances](intolerances)
+    - [1. Diary](intolerances)
+    - [Ni](intolerances)
+    - [3.pe](intolerances)
+    - [5. NO Intolerances](intolerances)
+    - [No intolerences](intolerances)
+    - No [gluten](intolerances) for me
+    - [Seafood](intolerances)
+    - I dont eat [sea food](intolerances)
+    - [1.Dairy](intolerances)
+    - [glutain](intolerances)
+    - [Diary](intolerances) causes me intolerance
+    - I should not be eating [diary](intolerances)
+    - [2. eggs](intolerances)
+    - [5.NI](intolerances)
+    - I have [no allergies](intolerances)
+    - I have [no intolerances](intolerances)
+    - [nut](intolerances)
+    - [glutyen](intolerances)
+    - [3.gluten](intolerances)
+    - [3. pe](intolerances)
+    - [ni](intolerances)
+    - [3.Peanuts](intolerances)
+    - [egg](intolerances)
+    - [Eggs](intolerances)
+    - [2.egg](intolerances)
+    - [2. egg](intolerances)
+    - [1.d](intolerances)
+    - [5.NO Intolerances](intolerances)
+    - [5.No intolerances](intolerances)
+    - No [diary](intolerances) diet for me
+    - [5.no intolerances](intolerances)
+    - [1.D](intolerances)
+    - [5. No intolerances](intolerances)
+    - [5. NO INTOLERANCES](intolerances)
+    - [glutan](intolerances)
+    - [Diary](intolerances) is toxic for me
+    - I am allergic to [seafood](intolerances)
+    - [Gluten](intolerances)
+    - [1. Dairy](intolerances)
+    - I have issues with [milk]intolerances
+    - [3.Gluten](intolerances)
+    - [eggs](intolerances) have a bad effect on me
+    - I have upset stomach with [eggs](intolerances)
+    - [NI](intolerances)
+    - [1. D](intolerances)
+    - [Egg](intolerances)
+    - [NO INTOLERANCES](intolerances)
+    - [3. Peanut](intolerances)
+    - [2.Eggs](intolerances)
+    - I dont eat [diary](intolerances)
+    - [3. Gluten](intolerances)
+    - I have allergy of [peanut](intolerances)
+    - [gluten](intolerances)
+    - I avoid eating [seafood](intolerances)
+    - [3.peanut](intolerances)
+    - [Dairy](intolerances)
+    - [seafood](intolerances) causes me issues
+    - [5.NO INTOLERANCES](intolerances)
+    - [5. no intolerances](intolerances)
+    - [3.Peanut](intolerances)
+    - [Gluten](intolerances) is bad for me
+    - [3.nut](intolerances)
+    - [Glutan](intolerances)
+    - [no Intolerances](intolerances)
+    - [5. NI](intolerances)
+    - [seafood](intolerances) makes me sick
+    - [g](intolerances)
+    - [3.PE](intolerances)
+    - [Dairy](intolerances) doesnt suit me
+    - I am okay with anything. [No intolerances](intolerances)
+    - [3. peanuts](intolerances)
+    - I cannot take [Eggs](intolerances)
+    - [5.no Intolerances](intolerances)
+    - No [eggs](intolerances) for me
+    - All good. [No intolerances](intolerances)
+    - [no intolerances](intolerances)
+    - [Diary](intolerances)
+    - I have a problem with [Peanut](intolerances)
+    - [3. nuts](intolerances)
+- intent: cook
+  examples: |
+    - make [french toast pudding](recipename)
+    - help me with cooking [Tandoori Paneer](recipename)
+    - I want to cook [sushi](recipename)
+    - I want to cook {recipename}
+    - tell me recipe for [glazed doughnuts](recipename)
+    - wish to make [chai tea](recipename)
+    - need recipe for [raisin cake](recipename)
+    - Give me [hummus](recipename) recipe
+    - umm anything with [pita](recipename)
+    - Wonder if I can make [Pesto Veggie Pizza](recipename) with your help
+    - show me the recipe for {recipename}
+    - I need recipe for [Burritos](recipename)
+    - what if I could get recipe for [carrot pancakes](recipename)
+    - I [latte](recipename)
+    - I want to cook [pasta](recipename)
+    - [french fries](recipename)
+    - I want to make [wrap](recipename)
+    - How about cooking something with [pork](recipename)
+    - tell me the recipe for [hummus](recipename)
+    - Normally I would eat [keto breakfast](recipename)
+    - I cook [cherry icecream](recipename)
+    - Anything with [black beans](recipename)
+    - toss [salad](recipename)
+    - can you help me with making {recipename}
+    - hoping to make [pancakes](recipename)
+    - Anything that has [fish](recipename)
+    - want to make [salad](recipename)
+    - want to make [vegan pasta](recipename)
+    - interested in [salad](recipename)
+    - I cook [basil pesto](recipename)
+    - recipe for [eggs benedicts](recipename)
+    - how to make [french toast](recipename)
+    - tell the recipe for [soup](recipename)
+    - can you help me with making [chicken wings](recipename)
+    - make [pita fajita](recipename)
+    - How do I make [dolma](recipename)
+    - let's get going to make [Tiramisu Overnight Oats](recipename)
+    - tell me the recipe for [Quesadillas](recipename)
+    - Give recipe for [hazelnut truffles](recipename)
+    - make [pita](recipename)
+    - I want to cook [Sandwich](recipename)
+    - I wish to make [tea](recipename)
+    - show me how to cook [Carrot-sesame seed bread](recipename)
+    - how to cook [Carrot and Coriander Soup](recipename)
+    - start making [beetroot soup](recipename)
+    - need to make [vegan burger](recipename)
+    - how about baking a [Chili Pie with Green Chile and Cheddar Cornbread Crust](recipename)
+    - Any idea how can we make [croissant](recipename)
+    - want you to help me with [english muffin](recipename)
+    - I want to cook [Chocolate Puff Pastry Squares](recipename)
+    - want to cook [vegan cake](recipename)
+    - want to toss some [vegetarian salad](recipename)
+    - please cook {recipename}
+    - Gues who wants to cook [potato](recipename)
+    - need to cook [gluten free waffles](recipename)
+    - since today is sunday, I wish to make [pancakes](recipename)
+    - help me with {recipename} recipe
+    - I want to make [Hummus](recipename)
+    - let's make [chicken shawarma](recipename)
+    - guess who is cooking [spinach pesto](recipename) today?
+    - cook me [Porridge](recipename)
+    - recipe for [thai green curry](recipename)
+    - I cook [bread](recipename)
+    - show the recipe for [tiramisu](recipename)
+    - help me with [meatballs](recipename) recipe
+    - Get me recipe for [Chicken Burritos](recipename)
+    - help me to cook [Spaghetti With Bolognese Sauce](recipename)
+    - Wish to cook [coconut rice pudding](recipename)
+    - [nutella calzone](recipename)
+    - Hi Alana, I want to cook [Dimsums](recipename)
+    - how about we bake a [pizza](recipename)
+    - [tomato sauce](recipename)
+    - I am craving for a good [smoked salmon](recipename)
+    - Do you know cooking [Rice Stuffed Bell Peppers](recipename)
+    - I need help with making [shortbread](recipename)
+    - I wish to make [pumpkin spice loaf](recipename)
+    - WOuld want to cook [pork ribs](recipename)
+    - give me the recipe for {recipename}
+    - Give me a recipe for [Chicken Pita Fajita](recipename)
+    - would love to bake a nice [pumpkin spice loaf](recipename)
+    - hoping to make [mushroom]
+    - cook [chocolate cookie dough](recipename)
+    - I want to cook [Apple Cider Honey Jack Martini](recipename)
+    - interested in getting recipe for [turkey](recipename)
+    - I fancy [gluten free pancakes](recipename)
+    - can we make [avocado shake](recipename)
+    - I am confused about [salad dressings](recipename)
+    - Thinking to cook [cake](recipename)
+    - to cook [chicken pizza](recipename)
+    - Give me recipe for [cookie dough](recipename)
+    - let's make [oats upma recipe](recipename)
+    - make [Pesto Zucchini Pasta](recipename)
+    - would like to make [baked beans toast](recipename)
+    - help me to make [vanilla extract](recipename)
+    - to make [loaded nachos](recipename)
+- intent: goodbye
+  examples: |
+    - thanks bye bye!
+    - tootles
+    - peace out
+    - i need to go now
+    - Later gator
+    - Peace
+    - see ya bye
+    - i’ll be leaving now
+    - cee you later
+    - gotta go
+    - i enjoyed speaking with you
+    - it was great to see you again, see ya later!
+    - byr
+    - see you around
+    - See ya
+    - great talk, take it easy
+    - by bye bot
+    - see you again soon
+    - regards
+    - i enjoyed talking to you, bye
+    - thanks, bye
+    - TTYL
+    - bye for now
+    - see ya!
+    - catch ya later
+    - thanks for your help, goodbye!
+    - Sayonara
+    - that's all, bye
+    - i've got to run now
+    - thank you for the chat, goodbye
+    - it was really nice to be able to chat with you
+    - bye bye then
+    - tata for now
+    - it was nice to talk it out with you
+    - ok, bye
+    - then bye
+    - bye!
+    - okay bye
+    - later gator!
+    - Bye-bye
+    - it was great to talk to you
+    - signing off
+    - buh bye
+    - it was good to chat
+    - toodle-oo
+    - Catch you later
+    - bye it was nice talking to you
+    - i enjoyed our talk, goodbye
+    - bye bots
+    - it was pleasant having a conversation with you
+    - See you tomorrow
+    - bye bye bot
+    - catch you later
+    - nice seeing you bye
+    - please take care
+    - nice talking again, bye
+    - it was nice to chat
+    - i'll see you later
+    - it was pleasant conversing with you
+    - i'll talk to you later
+    - Peace out
+    - Enjoy your day
+    - have a good day, bye
+    - until next time!
+    - i'm glad i got to talk to you
+    - it was good to talking to you today
+    - toodle
+    - it is time to say goodbye
+    - i'm out of here
+    - that will be all have a nice day!
+    - adios
+    - it was a pleasure talking to you
+    - okay, it was good talking to you. bye now
+    - always nice to talk to you
+    - Adieu
+    - it was really awesome to talk to you
+    - see you
+    - see you soon
+    - see you later alligator
+    - sayonara
+    - i'm outta here!
+    - i have to say goodbye
+    - take it easy!
+    - it was great talking to you
+    - it was nice chatting with you
+    - later!
+    - Goodnight
+    - ok good bye
+    - thanks for talking
+    - it was nice to speak with you
+    - it was nice to get in touch
+    - it was cool talking with you
+    - bye-bye
+    - see you bye
+    - it was very good to talk to you
+    - i have to go goodbye
+    - i had a pleasure talking to you, see you later
+    - bye bye now
+    - it was nice to catch up with you
+    - bye bye!
+    - i have to go but it was nice talking again!
+    - bye bye
+    - Take care
+    - thank you for chatting with me, bye
+    - ok bye
+    - i am glad we got to talk again, see you soon
+    - i enjoyed our talk, bye
+    - Later
+    - i enjoyed talking to you
+    - goodbye
+    - adios!
+    - it was enjoyable talking with you
+    - ill see you around
+    - Until next time
+    - Adios
+    - see you in a while
+    - see ya later
+    - it was nice to converse with you
+    - catch you around
+    - talk to you soon, bye!
+    - good by
+    - byee
+    - see ya
+    - we'll talk later
+    - great chat, talk to you later
+    - nice talk, talk to you later
+    - Au revoir
+    - good bye
+    - this was fun, see you around bye
+    - have a good day
+    - that's all i need, i'm going now
+    - it was great to speak with you
+    - talk later
+    - G Bye
+    - cee ya
+    - see u later
+    - Have a good one
+    - peace
+    - talk to you later!
+    - see you later, alligator
+    - good night
+    - great talk, thanks
+    - tlak to you later
+    - see you later!
+    - it was a pleasure talking to you, goodbye now
+    - ok Bye
+    - see you. bye
+    - it was lovely to speak with you, bye bye
+    - i must say goodbye
+    - cu
+    - thanks for talking to me
+- synonym: recipe
+  examples: |
+    - reciepe
+    - receepee
+    - recipee
+    - receepi
+    - recip
+    - dish
+- synonym: Equipment
+  examples: |
+    - equipments
+    - utensils
+    - pots
+    - pans
+    - equpments
+    - equipment
+    - pots and pans
+- synonym: ingredients
+  examples: |
+    - ingridients
+    - ingredient
+    - spices
+    - ingridents
+    - elements
+- synonym: Vegan
+  examples: |
+    - vegan
+    - 1.Vegan
+    - 1.vegan
+    - 1. Vegan
+    - 1. vegan
+    - V
+    - Ve
+    - VE
+    - ve
+    - Vegan
+    - Vegun
+    - vegun
+    - veganism
+    - plant based
+    - plant diet
+    - pro plant
+- synonym: Vegetarian
+  examples: |
+    - vegetarian
+    - Veggies
+    - veggies
+    - vegetarianism
+    - vegism
+    - 2.Vegetarian
+    - 2.vegetarian
+    - 1. Vegetarian
+    - 1. vegetarian
+    - Veg
+    - VG
+    - vg
+- synonym: Gluten Free
+  examples: |
+    - 3. Gluten Free
+    - 3. GlutenFree
+    - 3.Gluten Free
+    - 3.GlutenFree
+    - Gluten Free
+    - GlutenFree
+    - 3. GF
+    - 3.GF
+    - 3.gf
+    - G.F
+    - g.f
+    - GF
+    - gf
+    - glutain free
+    - glutun free
+    - no gluten
+    - gluten free
+    - G f
+    - G F
+    - g f
+    - glutyen free
+    - glutyen fri
+    - gluten fri
+- synonym: No dietary requirements
+  examples: |
+    - none
+    - 4. No dietary requirements
+    - 4.No dietary requirements
+    - no requirements
+    - NDR
+    - NR
+    - 4.NR
+    - 4. NR
+    - 4.nr
+    - nr
+    - Nr
+    - no dietary requirements
+    - No Requirements
+    - No dietary Requirements
+    - none requirements
+- synonym: Dairy
+  examples: |
+    - 1.Dairy
+    - 1. Dairy
+    - 1.Diary
+    - 1. Diary
+    - diary
+    - Dairy
+    - Diary
+    - dairy
+    - milk
+    - milk based
+- synonym: Eggs
+  examples: |
+    - 2.Eggs
+    - 2. Eggs
+    - 2. eggs
+    - 2.eggs
+    - 2. egg
+    - 2.egg
+    - eggs
+    - Eggs
+    - egg
+    - Egg
+- synonym: Gluten
+  examples: |
+    - gluten
+    - 3. gluten
+    - 3.gluten
+    - Gluten
+    - 3. Gluten
+    - 3.Gluten
+    - Glutain
+    - glutain
+    - Glutan
+    - glutan
+    - glutun
+    - glutyen
+    - glyuten
+- synonym: Peanut
+  examples: |
+    - Peanuts
+    - nuts
+    - 3.peanut
+    - 3.peanuts
+    - 3. peanuts
+    - 3. Peanut
+    - 3.Peanuts
+    - 3.Peanut
+    - 3. nuts
+    - nut
+    - 3.nut
+    - PE
+    - pe
+    - 3. PE
+    - 3.PE
+    - 3.pe
+    - 3. pe
+- synonym: No intolerances
+  examples: |
+    - no intolerances
+    - NO INTOLERANCES
+    - NO Intolerances
+    - no Intolerances
+    - No intolerances
+    - NI
+    - ni
+    - no allergies
+    - 5.no intolerances
+    - 5.NO INTOLERANCES
+    - 5.NO Intolerances
+    - 5.no Intolerances
+    - 5.No intolerances
+    - 5.NI
+    - 5. no intolerances
+    - 5. NO INTOLERANCES
+    - 5. NO Intolerances
+    - 5. no Intolerances
+    - 5. No intolerances
+    - 5. NI
+    - NA
+    - Ni
+- synonym: popularity
+  examples: |
+    - 1. popularity
+    - 1.popularity
+    - 1.Popularity
+    - 1.po
+    - 1.PO
+    - PO
+    - po
+    - popularity
+    - Popularity
+    - P
+    - p
+    - popular
+    - pop
+- synonym: healthiness
+  examples: |
+    - 2. healthiness
+    - 2.healthiness
+    - 2.Healthiness
+    - 2.H
+    - 1.h
+    - H
+    - h
+    - healthiness
+    - Healthiness
+    - health wise
+    - health
+    - heathly
+    - healthy
+    - heathy
+    - 
+- synonym: random
+  examples: |
+    - 3. random
+    - 3. Random
+    - 3.random
+    - 3.Random
+    - 3.R
+    - 3.r
+    - r
+    - R
+    - random
+    - Random
+    - randomly
+    - randomness
+- synonym: '1'
+  examples: |
+    - first
+    - top
+    - fist
+    - one
+- synonym: '2'
+  examples: |
+    - second
+    - two
+    - secnd
+- synonym: '3'
+  examples: |
+    - third
+    - three
+    - thre
+    - thrd
+    - 3rd
+- synonym: '4'
+  examples: |
+    - fourth
+    - forth
+    - four
+    - 4th
+- synonym: '5'
+  examples: |
+    - fifth
+    - fiveth
+    - five
+    - 5th
+- synonym: '6'
+  examples: |
+    - sixth
+    - six
+    - 6th
+- synonym: '7'
+  examples: |
+    - seventh
+    - seven
+    - sevn
+    - 7th
+- synonym: '8'
+  examples: |
+    - eighth
+    - eight
+    - eigth
+- synonym: '9'
+  examples: |
+    - ninth
+    - nine
+    - nineth
+    - 9th
+- synonym: '10'
+  examples: |
+    - tenth
+    - ten
+    - 10th

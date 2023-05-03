@@ -1,0 +1,202 @@
+version: '3.1'
+intents:
+- bot_challenge
+- confirm_recipe_items
+- cook
+- get_dietary_req
+- get_info_questions
+- get_intolerances
+- get_n_step
+- get_next_step
+- get_previous_step
+- get_recipeid
+- get_sort_type
+- get_substitute_ingredient
+- goodbye
+- greet
+- know_equipment
+- know_ingredients
+- know_steps
+- restart
+entities:
+- sub_ingredients
+- dietary_req
+- sort_type
+- intolerances
+- recipename
+- recipe_id
+- current_step_no
+- recipe_item
+- ingredients
+- equipments
+- steps
+slots:
+  recipename:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: recipename
+    influence_conversation: true
+  recipe_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: recipe_id
+    influence_conversation: true
+  dietary_req:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: dietary_req
+    influence_conversation: true
+  intolerances:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: intolerances
+    influence_conversation: true
+  ingredients:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: ingredients
+  equipments:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: equipments
+  steps:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: steps
+  current_step_no:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_step_no
+  sort_type:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: sort_type
+  recipe_item:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: recipe_item
+  sub_ingredients:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: sub_ingredients
+
+# forms:
+#   recipe_form:
+#     required_slots:
+#       - dietary_req
+#       - intolerances
+#       - sort_type
+
+responses:
+  utter_greet:
+  - text: Hi I am Alana's Recipe bot, How can I help you today?
+  - text: Hey I am Alana's Recipe bot, what would you like to cook today?
+  - text: Hola, I am Alana's Recipe bot, What recipe can I help you with?
+  - text: Hello! I am Alana's Recipe bot, How can I assist you today?
+  - text: Hi there! I am Alana's Recipe bot, What can I help you with?
+  - text: Good day! I am Alana's Recipe bot, What brings you here today?
+  - text: Welcome! I am Alana's Recipe bot, What can I do for you?
+  - text: Greetings! I am Alana's Recipe bot, How can I be of service?
+  - text: Hey, I am Alana's Recipe bot, what brings you to my chatbot today?
+  - text: Hi! I am Alana's Recipe bot, What can I assist you with today?
+  - text: This is Alana's Recipe Bot, Good to see you! How may I help you?
+  - text: Howdy! What brings you here?
+
+  utter_goodbye:
+  - text: Thanks, Bye.
+  - text: Bye, See you later.
+  - text: Alright, Bye now.
+  - text: Goodbye! Have a great day!
+  - text: Bye! It was nice chatting with you.
+  - text: Have a good one! See you soon.
+  - text: Farewell! Come back anytime.
+  - text: See ya! Take care.
+  - text: Goodbye! Stay safe out there.
+  - text: Until next time! Good luck with everything.
+  - text: Have a great day! Talk to you later.
+  - text: Thanks for chatting! Bye for now.
+  - text: See you soon! Have a wonderful rest of the day.
+
+  utter_iamabot:
+  - text: I am an Alana's virtual assistant bot responsible for helping you with step by step recipes.
+  - text: I am an Alana's virtual assistant designed to assist you with your needs.
+  - text: I'm an Alana's virtual assistant here to help you with anything you need.
+  - text: I'm a bot programmed to provide helpful information and support about recipes you would like to cook.
+
+  utter_acknowledge:
+  - text: Okay, Before we cook {recipename}, help us know your dietary preferances
+
+  utter_ask_diet_req:
+  - text: | 
+          Do you have any of the following dietary requirements? Please Choose appropriate option from below.(Eg. Type Vegan)
+          - No dietary requirements
+          - Vegan
+          - Vegetarian
+          - Gluten Free
+
+  utter_ask_intolerances:
+  - text: |
+          Do you have any of the following intolerances? Please Choose appropriate option from below.(Eg. Type Dairy)
+          - No intolerances
+          - Dairy
+          - Eggs
+          - Gluten
+          - Peanut
+
+  utter_wait:
+  - text: Okay,Sit back and relax while we find you suitable recipes
+  - text: Okay!Hold on, while we find you suitable recipes
+  - text: Now sit back and let us find you some amazing recipes to cook
+
+  utter_sort_type:
+  - text: |
+          How would you like to sort the recipes? Please Choose appropriate option from below.(Eg. Type Popularity)
+          - Popularity
+          - Healthiness
+          - Random
+  
+  utter_choices:
+  - text: | 
+          What do you want me to list down first? Please Choose appropriate option from below.(Eg. Type Ingredients)
+          - Ingredients 
+          - Equipment 
+          - All Instructions
+          - Stepwise
+  utter_rephrase:
+  - text: I am sorry, I didn't quite get that, Could you rephrase?
+
+actions:
+- action_confirm_recipe_items
+- utter_choices
+- action_get_ingredients
+- action_get_n_step
+- action_get_info_questions
+- action_get_equipment
+- action_get_all_steps
+- action_get_ingredient_substitute
+- utter_greet
+- utter_ask_diet_req
+- action_search_recipe
+- utter_goodbye
+- utter_sort_type
+- utter_acknowledge
+- utter_ask_intolerances
+- utter_wait
+- action_get_recipe
+- action_get_next_step
+- action_get_previous_step
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

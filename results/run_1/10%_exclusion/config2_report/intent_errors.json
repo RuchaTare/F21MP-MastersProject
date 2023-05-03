@@ -1,0 +1,114 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8295822739601135
+    }
+  },
+  {
+    "text": "AO",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4096463918685913
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.670534074306488
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.577780544757843
+    }
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.35819941759109497
+    }
+  },
+  {
+    "text": "heller",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.7801210284233093
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9997640252113342
+    }
+  },
+  {
+    "text": "GM",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.4016534984111786
+    }
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.5982954502105713
+    }
+  },
+  {
+    "text": "Is falafel vegan?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.709616482257843
+    }
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.5927162766456604
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9994388222694397
+    }
+  },
+  {
+    "text": "it was nice to see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9891334176063538
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9997525811195374
+    }
+  }
+]

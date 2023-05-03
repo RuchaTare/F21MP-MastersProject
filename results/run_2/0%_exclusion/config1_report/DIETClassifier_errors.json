@@ -1,0 +1,399 @@
+[
+  {
+    "text": "go to top",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "top",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "2. Equipment",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.5059148073196411,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "most healthy",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "most healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9868813753128052,
+        "value": "healthiness",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "to confirm it is bell pepper?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "bell pepper",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 19,
+        "value": "butternut squash",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 3,
+        "end": 12,
+        "confidence_entity": 0.34809812903404236,
+        "value": "butternut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "hazelnuts",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.5743248462677002,
+        "value": "hazelnuts",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hate garlic tell me a different ingredient",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "garlic",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont like coconut milk suggest a new ingredient",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What do you mean by chicken breast?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.5000506639480591,
+        "value": "chicken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Who is negatively affected by the overfishing of certain seafood?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.4906834363937378,
+        "value": "seafood",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "pe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "pe",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 1,
+        "end": 5,
+        "confidence_entity": 0.9890648126602173,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "1. D",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "1. D",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.7516166567802429,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "recipe_id",
+        "start": 3,
+        "end": 4,
+        "confidence_entity": 0.6001715660095215,
+        "value": "D",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I dont eat sea food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "sea food",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.8918198943138123,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "let's make oats upma recipe",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "oats upma recipe",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.6953238844871521,
+        "value": "oats upma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "need to make vegan burger",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "value": "vegan burger",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.6181507706642151,
+        "value": "Vegan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "How do I make dolma",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "dolma",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how to cook Carrot and Coriander Soup",
+    "entities": [
+      {
+        "start": 12,
+        "end": 37,
+        "value": "Carrot and Coriander Soup",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.535621702671051,
+        "value": "Carrot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 23,
+        "end": 37,
+        "confidence_entity": 0.8355401754379272,
+        "value": "Coriander Soup",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about cooking something with pork",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "value": "pork",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Give me a recipe for Chicken Pita Fajita",
+    "entities": [
+      {
+        "start": 21,
+        "end": 40,
+        "value": "Chicken Pita Fajita",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9975612163543701,
+        "value": "chicken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "recipename",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9576173424720764,
+        "value": "pita",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "TTYL",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.4604456126689911,
+        "value": "TTYL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

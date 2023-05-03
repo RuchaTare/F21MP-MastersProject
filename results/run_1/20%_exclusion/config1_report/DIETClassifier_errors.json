@@ -1,0 +1,590 @@
+[
+  {
+    "text": "give only first only",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "first",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.73080974817276,
+        "value": "grill",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay list pots and pans",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.3707999885082245,
+        "value": "Equipment",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "po",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "po",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "top popular recipes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "popular",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.540065586566925,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sort_type",
+        "start": 4,
+        "end": 11,
+        "confidence_entity": 0.9957842230796814,
+        "value": "popularity",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "p",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "p",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.6796877384185791,
+        "value": "popularity",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Did you say food processor",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "food processor",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "it needs strainer",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "strainer",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I understand this uses full fat coconut milk ?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 44,
+        "value": "full fat coconut milk",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.4227866530418396,
+        "value": "fat",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 32,
+        "end": 44,
+        "confidence_entity": 0.6470181941986084,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it should need vanilla bean paste correct?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 33,
+        "value": "vanilla bean paste",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.7019125819206238,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.3397914171218872,
+        "value": "bean paste",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What if I dont have chicken at the moment? Anything else that can replace it",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "chicken",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 41,
+        "confidence_entity": 0.4808574914932251,
+        "value": "potato scratch",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking to replace cacao nibs",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "value": "cacao nibs",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.3126654326915741,
+        "value": "cacao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give a better alternative for full fat coconut milk",
+    "entities": [
+      {
+        "start": 30,
+        "end": 51,
+        "value": "full fat coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.6291569471359253,
+        "value": "fat",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sub_ingredients",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.7422506809234619,
+        "value": "coconut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "instead of lemons what else?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "lemons",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "3.Gluten Free",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "3.Gluten Free",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.5471838712692261,
+        "value": "Gluten Free",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "veggies",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How to know if a nut has gone rancid",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.7407963871955872,
+        "value": "Peanut",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.8549099564552307,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "dietary_req",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.9269860982894897,
+        "value": "Vegetarian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Which Youtubers are best for vegan cooking?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.6380603313446045,
+        "value": "Vegan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Who is negatively affected by the overfishing of certain seafood?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.8794199824333191,
+        "value": "seafood",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how is vanilla extracted?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.4311532974243164,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many calories does coke have?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.19652020931243896,
+        "value": "calories",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.25784316658973694,
+        "value": "coke",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Where does vanilla come from?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.6870502233505249,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is falafel vegan?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.36522582173347473,
+        "value": "falafel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dietary_req",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9629306793212891,
+        "value": "Vegan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 1,
+        "end": 5,
+        "confidence_entity": 0.6625709533691406,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how to bake Homemade Macaroni and Cheese Muffin Cups",
+    "entities": [
+      {
+        "start": 12,
+        "end": 52,
+        "value": "Homemade Macaroni and Cheese Muffin Cups",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 47,
+        "confidence_entity": 0.46484625339508057,
+        "value": "Macaroni and Cheese Muffin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the recipe for grilled chicken",
+    "entities": [
+      {
+        "start": 23,
+        "end": 38,
+        "value": "grilled chicken",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.829678475856781,
+        "value": "chicken",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to make overnight oats",
+    "entities": [
+      {
+        "start": 15,
+        "end": 29,
+        "value": "overnight oats",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.7879687547683716,
+        "value": "oats",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "chicken breasts",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.880235493183136,
+        "value": "oatmeal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.781367838382721,
+        "value": "breakfast",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

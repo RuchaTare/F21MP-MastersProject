@@ -1,0 +1,83 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet user at start of the conversation
+  conversation_start: true
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: restart rule
+  steps:
+  - action: action_restart
+  - action: utter_greet
+  
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- rule: get sort type
+  steps:
+  - action: utter_sort_type
+  - intent: get_sort_type
+  - action: utter_wait
+  - action: action_get_recipe
+
+- rule: get next step
+  steps:
+  - intent: get_next_step
+  - action: action_get_next_step
+
+- rule: get previous step
+  steps:
+  - intent: get_previous_step
+  - action: action_get_previous_step
+
+- rule: get n step
+  steps:
+  - intent: get_n_step
+  - action: action_get_n_step
+
+- rule: Know Ingredients
+  steps:
+  - intent: know_ingredients
+  - action: action_get_ingredients
+
+- rule: Know Equipment
+  steps:
+  - intent: know_equipment
+  - action: action_get_equipment
+
+- rule: Know all steps
+  steps:
+  - intent: know_steps
+  - action: action_get_all_steps
+
+- rule: Confirm recipe items
+  steps:
+  - intent: confirm_recipe_items
+  - action: action_confirm_recipe_items
+
+- rule: Get substitute
+  steps:
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+
+- rule: Get info questions
+  steps:
+  - intent: get_info_questions
+  - action: action_get_info_questions
+
+- rule: nlu fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_rephrase

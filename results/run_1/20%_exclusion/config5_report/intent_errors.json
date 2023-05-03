@@ -1,0 +1,154 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999449253082275
+    }
+  },
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9985795021057129
+    }
+  },
+  {
+    "text": "What is a recipe bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.5975006222724915
+    }
+  },
+  {
+    "text": "whoa, wait give me first step only",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.4641883671283722
+    }
+  },
+  {
+    "text": "give instructions at once for making {recipename}",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.5245463848114014
+    }
+  },
+  {
+    "text": "okay list pots and pans",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.6237146854400635
+    }
+  },
+  {
+    "text": "what are pots and pans for this {recipe_name}",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.3824857175350189
+    }
+  },
+  {
+    "text": "Tell me step by step recipes",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.532357931137085
+    }
+  },
+  {
+    "text": "Heathiest recipe",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.693579375743866
+    }
+  },
+  {
+    "text": "give me heathly recipes",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9485903382301331
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.8765003681182861
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.941669225692749
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_n_step",
+      "confidence": 0.16369614005088806
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9987963438034058
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.2548476755619049
+    }
+  },
+  {
+    "text": "goodevening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.999994158744812
+    }
+  },
+  {
+    "text": "What's the best way to cook Brussels sprouts?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.6230545043945312
+    }
+  },
+  {
+    "text": "Suggest me wine pairings with Basil Pesto",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9950342178344727
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7499133944511414
+    }
+  }
+]

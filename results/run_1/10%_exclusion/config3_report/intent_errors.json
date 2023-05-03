@@ -1,0 +1,202 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9948611855506897
+    }
+  },
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.568540096282959
+    }
+  },
+  {
+    "text": "bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9417592287063599
+    }
+  },
+  {
+    "text": "I havent completed previosu step",
+    "intent": "get_previous_step",
+    "intent_prediction": {
+      "name": "get_n_step",
+      "confidence": 0.5509845018386841
+    }
+  },
+  {
+    "text": "how to make this recipe step wise",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.9108515977859497
+    }
+  },
+  {
+    "text": "What steps do I need to do this recipe?",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.33452174067497253
+    }
+  },
+  {
+    "text": "Tell me step by step recipes",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "get_n_step",
+      "confidence": 0.4481363594532013
+    }
+  },
+  {
+    "text": "ahead",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3145049810409546
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9814793467521667
+    }
+  },
+  {
+    "text": "it should need vanilla bean paste correct?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.8305311799049377
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.9913759827613831
+    }
+  },
+  {
+    "text": "I am looking to replace cacao nibs",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.8892211318016052
+    }
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.5430668592453003
+    }
+  },
+  {
+    "text": "looking for alternatives to vanilla extract",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9375928044319153
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.9938357472419739
+    }
+  },
+  {
+    "text": "VG",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3145049810409546
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.6927032470703125
+    }
+  },
+  {
+    "text": "What's the difference between all-purpose flour and bread flour",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9049911499023438
+    }
+  },
+  {
+    "text": "Who is the best cook in the world?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.8118388056755066
+    }
+  },
+  {
+    "text": "Suggest me wine pairings with Basil Pesto",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.999886155128479
+    }
+  },
+  {
+    "text": "what is a clove?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7098343372344971
+    }
+  },
+  {
+    "text": "glutyen",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3145049810409546
+    }
+  },
+  {
+    "text": "I dont eat sea food",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9966963529586792
+    }
+  },
+  {
+    "text": "regards",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3145049810409546
+    }
+  },
+  {
+    "text": "TTYL",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3145049810409546
+    }
+  }
+]

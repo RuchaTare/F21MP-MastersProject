@@ -1,0 +1,88 @@
+{
+  "recipe_item": {
+    "precision": 0.8,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.8205128205128205,
+    "support": 19,
+    "confused_with": {
+      "sub_ingredients": 1
+    }
+  },
+  "sort_type": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1-score": 0.9696969696969697,
+    "support": 16,
+    "confused_with": {}
+  },
+  "dietary_req": {
+    "precision": 0.7428571428571429,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.8387096774193549,
+    "support": 27,
+    "confused_with": {
+      "intolerances": 1
+    }
+  },
+  "recipename": {
+    "precision": 0.9032258064516129,
+    "recall": 0.5283018867924528,
+    "f1-score": 0.6666666666666666,
+    "support": 53,
+    "confused_with": {
+      "intolerances": 1
+    }
+  },
+  "intolerances": {
+    "precision": 0.6486486486486487,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.7384615384615384,
+    "support": 28,
+    "confused_with": {
+      "dietary_req": 1
+    }
+  },
+  "recipe_id": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 4,
+    "confused_with": {}
+  },
+  "sub_ingredients": {
+    "precision": 0.8181818181818182,
+    "recall": 0.6,
+    "f1-score": 0.6923076923076923,
+    "support": 15,
+    "confused_with": {
+      "recipe_item": 3,
+      "dietary_req": 2
+    }
+  },
+  "current_step_no": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.7901234567901234,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.7757575757575756,
+    "support": 168
+  },
+  "macro avg": {
+    "precision": 0.8150945691742656,
+    "recall": 0.8279807879236876,
+    "f1-score": 0.804430784269494,
+    "support": 168
+  },
+  "weighted avg": {
+    "precision": 0.8171933942264654,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.7666635335990174,
+    "support": 168
+  },
+  "accuracy": 0.9436123348017621
+}

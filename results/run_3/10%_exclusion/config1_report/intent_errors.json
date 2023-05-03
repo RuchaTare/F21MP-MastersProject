@@ -1,0 +1,130 @@
+[
+  {
+    "text": "d",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9972755312919617
+    }
+  },
+  {
+    "text": "D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.992487907409668
+    }
+  },
+  {
+    "text": "RESTART",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4267716705799103
+    }
+  },
+  {
+    "text": "at once",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4487958252429962
+    }
+  },
+  {
+    "text": "then",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6630743741989136
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9924764037132263
+    }
+  },
+  {
+    "text": "what instead of {sub_ingredients}",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9119399189949036
+    }
+  },
+  {
+    "text": "what spices are used in this recipe?",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.5705229043960571
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.38052529096603394
+    }
+  },
+  {
+    "text": "goodmorning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9943808913230896
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9832135438919067
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6865065097808838
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9998414516448975
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999793767929077
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.7749712467193604
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.37600067257881165
+    }
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "text": "Give E",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "E",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "go to top",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "top",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I did not get step 10",
+    "entities": [
+      {
+        "start": 19,
+        "end": 21,
+        "value": "10",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "current_step_no",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.6248056292533875,
+        "value": "step",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "current_step_no",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.994513750076294,
+        "value": "10",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "most healthy",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "most healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.8935593962669373,
+        "value": "healthiness",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "to confirm it is bell pepper?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "bell pepper",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 19,
+        "value": "butternut squash",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can I get substitute of vegetable oil",
+    "entities": [
+      {
+        "start": 24,
+        "end": 37,
+        "value": "vegetable oil",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 24,
+        "end": 37,
+        "confidence_entity": 0.4030505120754242,
+        "value": "vegetable oil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "hazelnuts",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.5098212957382202,
+        "value": "hazelnuts",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hate garlic tell me a different ingredient",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "garlic",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont like coconut milk suggest a new ingredient",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 12,
+        "end": 24,
+        "confidence_entity": 0.3090433180332184,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Who is negatively affected by the overfishing of certain seafood?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.6225958466529846,
+        "value": "seafood",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Diary causes me intolerance",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Diary",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9978882670402527,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "intolerances",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.6610568761825562,
+        "value": "intolerance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "pe",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 1,
+        "end": 5,
+        "confidence_entity": 0.36438050866127014,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I dont eat sea food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "sea food",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9107651710510254,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "let's make oats upma recipe",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "oats upma recipe",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9492733478546143,
+        "value": "oats upma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How do I make dolma",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "dolma",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how to cook Carrot and Coriander Soup",
+    "entities": [
+      {
+        "start": 12,
+        "end": 37,
+        "value": "Carrot and Coriander Soup",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9813474416732788,
+        "value": "Carrot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 23,
+        "end": 37,
+        "confidence_entity": 0.8912599086761475,
+        "value": "Coriander Soup",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about cooking something with pork",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "value": "pork",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

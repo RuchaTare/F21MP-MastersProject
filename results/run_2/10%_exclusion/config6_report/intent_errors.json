@@ -1,0 +1,138 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.7249486446380615
+    }
+  },
+  {
+    "text": "/Restart",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "Restart",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What is a recipe bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.691954493522644
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4231325685977936
+    }
+  },
+  {
+    "text": "how to make this recipe step wise",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.5110042691230774
+    }
+  },
+  {
+    "text": "how to make this recipe",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9984311461448669
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.667153000831604
+    }
+  },
+  {
+    "text": "I choose stepwise recipe instructions",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.4741162359714508
+    }
+  },
+  {
+    "text": "Heathiest recipe",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9972416162490845
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.5551897287368774
+    }
+  },
+  {
+    "text": "give me sub for pepper",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.8592793345451355
+    }
+  },
+  {
+    "text": "what spices are used in this recipe?",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.7744892835617065
+    }
+  },
+  {
+    "text": "Tell me a fun joke about chicken",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9996412992477417
+    }
+  },
+  {
+    "text": "Anything that has fish",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4417535662651062
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9879292249679565
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.39147257804870605
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.980968177318573
+    }
+  }
+]

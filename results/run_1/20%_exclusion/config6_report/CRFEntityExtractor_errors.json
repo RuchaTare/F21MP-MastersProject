@@ -1,0 +1,521 @@
+[
+  {
+    "text": "Let's go with A",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "A",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "a",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "a",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "A",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "A",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "2.H",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "2.H",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "1. popularity",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "1. popularity",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.42520709543949115,
+        "value": "1.",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "sort_type",
+        "start": 3,
+        "end": 13,
+        "confidence_entity": 0.8202653766033852,
+        "value": "popularity",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "3. Random",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "3. Random",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4528131760918622,
+        "value": "3.",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "sort_type",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.8446492289722464,
+        "value": "random",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "1.po",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "1.po",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I understand this uses full fat coconut milk ?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 44,
+        "value": "full fat coconut milk",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is there any flour in it?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "flour",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "did it need to use spatula?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 26,
+        "value": "spatula",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "will this recipe have salt",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "salt",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.6649801280634501,
+        "value": "salt",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "to confirm it is bell pepper?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "bell pepper",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do we use bread?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "bread",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "have we used chocolate chips?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 28,
+        "value": "chocolate chips",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do we use berries in this recipe?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "berries",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to know if we are in need of almond flour",
+    "entities": [
+      {
+        "start": 36,
+        "end": 48,
+        "value": "almond flour",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 36,
+        "end": 48,
+        "confidence_entity": 0.7687594258746387,
+        "value": "almond flour",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "will peanut be used?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "peanut",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "it needs strainer",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "strainer",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what if I dont have tahini?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "tahini",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me substitute of spinach",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "spinach",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cannot have sesame what should I use then?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "sesame",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hate garlic tell me a different ingredient",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "garlic",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give a better alternative for full fat coconut milk",
+    "entities": [
+      {
+        "start": 30,
+        "end": 51,
+        "value": "full fat coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "4.No dietary requirements",
+    "entities": [
+      {
+        "start": 0,
+        "end": 25,
+        "value": "4.No dietary requirements",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 5,
+        "end": 25,
+        "confidence_entity": 0.5793264827417831,
+        "value": "dietary requirements",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "3. Gluten Free",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "3. Gluten Free",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.5914073892071049,
+        "value": "3.",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "dietary_req",
+        "start": 3,
+        "end": 14,
+        "confidence_entity": 0.7994309713313883,
+        "value": "Gluten Free",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I believe in Veganism",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "Veganism",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "V",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "V",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "NR",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "NR",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "3.PE",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "3.PE",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "help me with cooking Tandoori Paneer",
+    "entities": [
+      {
+        "start": 21,
+        "end": 36,
+        "value": "Tandoori Paneer",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.4165628547982245,
+        "value": "Paneer",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Give a simple recipe for hashbrowns",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "hashbrowns",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am confused about salad dressings",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "salad dressings",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "recipe for thai green curry",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "thai green curry",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.561335426918593,
+        "value": "curry",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Normally I would eat keto breakfast",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "value": "keto breakfast",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

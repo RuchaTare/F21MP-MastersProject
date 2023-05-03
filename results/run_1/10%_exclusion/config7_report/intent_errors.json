@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9260191321372986
+    }
+  },
+  {
+    "text": "what does Alana mean?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.724010705947876
+    }
+  },
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.585788905620575
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.4394969642162323
+    }
+  },
+  {
+    "text": "I prefer [vegan] options(dietary_req)",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.3804267942905426
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9992837309837341
+    }
+  },
+  {
+    "text": "heyeeeeeeeeeeee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9358991384506226
+    }
+  },
+  {
+    "text": "Hieeeeeeeeeeeee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7290328741073608
+    }
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.27429288625717163
+    }
+  },
+  {
+    "text": "signing off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.2326786071062088
+    }
+  }
+]

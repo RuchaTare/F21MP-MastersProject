@@ -1,0 +1,122 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9990535378456116
+    }
+  },
+  {
+    "text": "What is a recipe bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.8009836673736572
+    }
+  },
+  {
+    "text": "okay list pots and pans",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.7575890421867371
+    }
+  },
+  {
+    "text": "ahead",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.5976128578186035
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9209635257720947
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.5545256733894348
+    }
+  },
+  {
+    "text": "Absolutely hate cabbagge give something else",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.372586190700531
+    }
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.41416189074516296
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.628858208656311
+    }
+  },
+  {
+    "text": "I am ve",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.946208119392395
+    }
+  },
+  {
+    "text": "VG",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9541453123092651
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9998192191123962
+    }
+  },
+  {
+    "text": "goodevening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9750932455062866
+    }
+  },
+  {
+    "text": "Suggest me wine pairings with Basil Pesto",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9994179010391235
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8694908618927002
+    }
+  }
+]

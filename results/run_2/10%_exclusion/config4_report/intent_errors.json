@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.5677284598350525
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4335521459579468
+    }
+  },
+  {
+    "text": "Absolutely hate cabbagge give something else",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5102156400680542
+    }
+  },
+  {
+    "text": "chpice vegan butter",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.4737791121006012
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9992160797119141
+    }
+  },
+  {
+    "text": "Tell me a food trivia",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.7354810237884521
+    }
+  },
+  {
+    "text": "Tell me a food joke",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9641855359077454
+    }
+  },
+  {
+    "text": "No using gluten for my recipes",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.8716719150543213
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9983870983123779
+    }
+  }
+]

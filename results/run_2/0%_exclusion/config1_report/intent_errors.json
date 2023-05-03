@@ -1,0 +1,154 @@
+[
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.5086231827735901
+    }
+  },
+  {
+    "text": "give instructions at once for making {recipename}",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.6992512345314026
+    }
+  },
+  {
+    "text": "Give me list ofsteps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.5543796420097351
+    }
+  },
+  {
+    "text": "I want to know if we are in need of almond flour",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.800696074962616
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.591397762298584
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.7738900184631348
+    }
+  },
+  {
+    "text": "Hate garlic tell me a different ingredient",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.6005021333694458
+    }
+  },
+  {
+    "text": "I dont like coconut milk suggest a new ingredient",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.8997905850410461
+    }
+  },
+  {
+    "text": "GE",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.7327839732170105
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.864739716053009
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9998712539672852
+    }
+  },
+  {
+    "text": "it is good to see you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8414600491523743
+    }
+  },
+  {
+    "text": "it's good to see you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5578680038452148
+    }
+  },
+  {
+    "text": "What do you mean by chicken breast?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7723743319511414
+    }
+  },
+  {
+    "text": "What do you mean by al dante?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9832890629768372
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9655293822288513
+    }
+  },
+  {
+    "text": "I latte",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9822602868080139
+    }
+  },
+  {
+    "text": "TTYL",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.6753069758415222
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9974991679191589
+    }
+  }
+]

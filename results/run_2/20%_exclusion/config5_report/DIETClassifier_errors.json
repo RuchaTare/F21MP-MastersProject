@@ -1,0 +1,554 @@
+[
+  {
+    "text": "go to top",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "top",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "step tenth",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "tenth",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "did you say cookie cutter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "cookie cutter",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.7006710171699524,
+        "value": "cookie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Did you say honey",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "honey",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.6172158122062683,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Absolutely hate cabbagge give something else",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "cabbagge",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "chpice vegan butter",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "vegan butter",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.31349825859069824,
+        "value": "chpice",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sub_ingredients",
+        "start": 7,
+        "end": 19,
+        "confidence_entity": 0.3955484628677368,
+        "value": "vegan butter",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what if I dont have olive oil",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "olive oil",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.33645057678222656,
+        "value": "olive",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.8492354154586792,
+        "value": "potato",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "recommend me Gluten Free recipes only",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "Gluten Free",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.8662867546081543,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is it safe to eat raw eggs in cookie dough?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.6321122646331787,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "recipename",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.32931041717529297,
+        "value": "cookie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.4465395510196686,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am okay with anything. No intolerances",
+    "entities": [
+      {
+        "start": 25,
+        "end": 40,
+        "value": "No intolerances",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "No gluten for me",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "gluten",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.514013409614563,
+        "value": "No",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.8834105730056763,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No intolerences",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "No intolerences",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.7327225804328918,
+        "value": "No",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "All good. No intolerances",
+    "entities": [
+      {
+        "start": 10,
+        "end": 25,
+        "value": "No intolerances",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.5979000926017761,
+        "value": "intolerances",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I cannot take Eggs",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "Eggs",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.8832960724830627,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me how to cook Carrot-sesame seed bread",
+    "entities": [
+      {
+        "start": 20,
+        "end": 44,
+        "value": "Carrot-sesame seed bread",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9912097454071045,
+        "value": "Carrot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 27,
+        "end": 44,
+        "confidence_entity": 0.5176699161529541,
+        "value": "sesame seed bread",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am craving for a good smoked salmon",
+    "entities": [
+      {
+        "start": 24,
+        "end": 37,
+        "value": "smoked salmon",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.5937050580978394,
+        "value": "smoked",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.46046891808509827,
+        "value": "salmon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to cook Apple Cider Honey Jack Martini",
+    "entities": [
+      {
+        "start": 15,
+        "end": 45,
+        "value": "Apple Cider Honey Jack Martini",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.5471258163452148,
+        "value": "Apple Cider",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.4897864758968353,
+        "value": "Martini",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how to cook Carrot and Coriander Soup",
+    "entities": [
+      {
+        "start": 12,
+        "end": 37,
+        "value": "Carrot and Coriander Soup",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9471921920776367,
+        "value": "Carrot",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 23,
+        "end": 37,
+        "confidence_entity": 0.47986656427383423,
+        "value": "Coriander Soup",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am confused about salad dressings",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "salad dressings",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.9546830654144287,
+        "value": "salad",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "chicken breasts",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.3839074373245239,
+        "value": "chicken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how to bake Homemade Macaroni and Cheese Muffin Cups",
+    "entities": [
+      {
+        "start": 12,
+        "end": 52,
+        "value": "Homemade Macaroni and Cheese Muffin Cups",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.6934375166893005,
+        "value": "Macaroni",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 34,
+        "end": 47,
+        "confidence_entity": 0.6218155026435852,
+        "value": "Cheese Muffin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Wonder if I can make Pesto Veggie Pizza with your help",
+    "entities": [
+      {
+        "start": 21,
+        "end": 39,
+        "value": "Pesto Veggie Pizza",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.5897964835166931,
+        "value": "Veggie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "spinach pesto",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

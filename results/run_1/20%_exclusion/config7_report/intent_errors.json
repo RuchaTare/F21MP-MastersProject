@@ -1,0 +1,106 @@
+[
+  {
+    "text": "a",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.3760334551334381
+    }
+  },
+  {
+    "text": "A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.3760334551334381
+    }
+  },
+  {
+    "text": "what steps should I follow",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.6673059463500977
+    }
+  },
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.8599956035614014
+    }
+  },
+  {
+    "text": "help me with steps to follow",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.7205601334571838
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9348630905151367
+    }
+  },
+  {
+    "text": "don't have baking soda",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.5538679957389832
+    }
+  },
+  {
+    "text": "I prefer [vegan] options(dietary_req)",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.3653789758682251
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8906537294387817
+    }
+  },
+  {
+    "text": "how many calories does coke have?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.7111059427261353
+    }
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.1878005862236023
+    }
+  },
+  {
+    "text": "Give a simple recipe for hashbrowns",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.6154630184173584
+    }
+  },
+  {
+    "text": "Normally I would eat keto breakfast",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.21994924545288086
+    }
+  }
+]

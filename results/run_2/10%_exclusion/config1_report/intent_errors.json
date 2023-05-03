@@ -1,0 +1,146 @@
+[
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.3551780581474304
+    }
+  },
+  {
+    "text": "give instructions at once for making {recipename}",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.6558971405029297
+    }
+  },
+  {
+    "text": "ahead",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.48918306827545166
+    }
+  },
+  {
+    "text": "I want to know if we are in need of almond flour",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9596191644668579
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.6088889241218567
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.7635546326637268
+    }
+  },
+  {
+    "text": "Hate garlic tell me a different ingredient",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.460366815328598
+    }
+  },
+  {
+    "text": "I dont like coconut milk suggest a new ingredient",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.4402252435684204
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5413539409637451
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9998726844787598
+    }
+  },
+  {
+    "text": "What do you mean by chicken breast?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3034132719039917
+    }
+  },
+  {
+    "text": "What do you mean by al dante?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9708216786384583
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.5883177518844604
+    }
+  },
+  {
+    "text": "Who is negatively affected by the overfishing of certain seafood?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.8337521553039551
+    }
+  },
+  {
+    "text": "pe",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.1495913714170456
+    }
+  },
+  {
+    "text": "I have upset stomach with eggs",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.5110684037208557
+    }
+  },
+  {
+    "text": "I latte",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.7718331217765808
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9921078085899353
+    }
+  }
+]

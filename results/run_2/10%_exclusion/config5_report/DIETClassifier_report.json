@@ -1,0 +1,84 @@
+{
+  "recipe_item": {
+    "precision": 0.8636363636363636,
+    "recall": 1.0,
+    "f1-score": 0.9268292682926829,
+    "support": 19,
+    "confused_with": {}
+  },
+  "sort_type": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 16,
+    "confused_with": {}
+  },
+  "dietary_req": {
+    "precision": 0.8125,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.8813559322033898,
+    "support": 27,
+    "confused_with": {}
+  },
+  "recipename": {
+    "precision": 1.0,
+    "recall": 0.7735849056603774,
+    "f1-score": 0.8723404255319149,
+    "support": 53,
+    "confused_with": {
+      "dietary_req": 2
+    }
+  },
+  "intolerances": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 28,
+    "confused_with": {
+      "recipe_item": 1
+    }
+  },
+  "recipe_id": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "sub_ingredients": {
+    "precision": 0.9090909090909091,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7692307692307692,
+    "support": 15,
+    "confused_with": {
+      "dietary_req": 3,
+      "recipe_item": 1
+    }
+  },
+  "current_step_no": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.922077922077922,
+    "recall": 0.8452380952380952,
+    "f1-score": 0.8819875776397517,
+    "support": 168
+  },
+  "macro avg": {
+    "precision": 0.9342645202020202,
+    "recall": 0.8733184835779175,
+    "f1-score": 0.8946458290100947,
+    "support": 168
+  },
+  "weighted avg": {
+    "precision": 0.9357450998075999,
+    "recall": 0.8452380952380952,
+    "f1-score": 0.8791204722777544,
+    "support": 168
+  },
+  "accuracy": 0.9726872246696036
+}

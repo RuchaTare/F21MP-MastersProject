@@ -1,0 +1,60 @@
+# Pylint configuration for this project
+
+
+[MESSAGES CONTROL]
+
+# These errors we choose to let go
+disable=
+    fixme,              # this repo uses "TODO"s in comments
+    missing-docstring,  # not everything needs a docstring
+    no-else-break,      # "else" after "break" isn't technically required, but it keeps the code readable
+    no-else-return,     # same
+    protected-access    # since we're hacking the Rasa library we do this very often..
+
+enable=
+    useless-suppression
+
+
+[REPORTS]
+
+# Tells whether to display a full report or only the messages
+reports=no
+score=no
+
+
+[VARIABLES]
+
+# Whether we should check for unused import in __init__ files.
+init-import=no
+
+# A regular expression matching the name of dummy variables (i.e. expectedly
+# not used).
+dummy-variables-rgx=_$|\w+_unused
+
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=120
+
+
+[DESIGN]
+
+# Maximum number of arguments for function / method
+max-args=10
+max-attributes=15
+
+
+[BASIC]
+
+# We're cool with map, filter, input
+bad-functions=
+
+# Remove restrictions on name lengths
+argument-rgx=[a-z_][a-z0-9_]*$
+attr-rgx=[a-z_][a-z0-9_]*$
+class-attribute-rgx=[A-Za-z_][A-Za-z0-9_]*
+function-rgx=[a-z_][a-z0-9_]*$
+method-rgx=[a-z_][a-z0-9_]*$
+variable-rgx=[a-z_][a-z0-9_]*$
+

@@ -1,0 +1,98 @@
+[
+  {
+    "text": "/Restart",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "Restart",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.4092179834842682
+    }
+  },
+  {
+    "text": "how to make this recipe step wise",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.7100915312767029
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.5010587573051453
+    }
+  },
+  {
+    "text": "Heathiest recipe",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.48322030901908875
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9815958142280579
+    }
+  },
+  {
+    "text": "what spices are used in this recipe?",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.5244473218917847
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9858554005622864
+    }
+  },
+  {
+    "text": "Anything that has fish",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4192478656768799
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9941257238388062
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.8299891352653503
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9519249200820923
+    }
+  }
+]

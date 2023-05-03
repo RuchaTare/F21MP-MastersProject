@@ -1,0 +1,130 @@
+[
+  {
+    "text": "d",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9668562412261963
+    }
+  },
+  {
+    "text": "D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9932723641395569
+    }
+  },
+  {
+    "text": "clear",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5429600477218628
+    }
+  },
+  {
+    "text": "Why are you chatting with me?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.999983549118042
+    }
+  },
+  {
+    "text": "then",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9208664298057556
+    }
+  },
+  {
+    "text": "I will go with health",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7649065256118774
+    }
+  },
+  {
+    "text": "Is there sea salt in the recipe",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.7695695161819458
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9893566966056824
+    }
+  },
+  {
+    "text": "what instead of {sub_ingredients}",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.532021164894104
+    }
+  },
+  {
+    "text": "give me sub for pepper",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.8107086420059204
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9516281485557556
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4376295804977417
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.998806357383728
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999946355819702
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.8458170294761658
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.24787653982639313
+    }
+  }
+]

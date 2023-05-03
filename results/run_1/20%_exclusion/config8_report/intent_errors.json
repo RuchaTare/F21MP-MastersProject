@@ -1,0 +1,98 @@
+[
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.41854041814804077
+    }
+  },
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.971673309803009
+    }
+  },
+  {
+    "text": "it needs strainer",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9999974966049194
+    }
+  },
+  {
+    "text": "Usually I prefer gluten free",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.8844857811927795
+    }
+  },
+  {
+    "text": "I prefer [vegan] options(dietary_req)",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9276410341262817
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6277192831039429
+    }
+  },
+  {
+    "text": "heyeeeeeeeeeeee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9994658827781677
+    }
+  },
+  {
+    "text": "how many calories does coke have?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.6117278933525085
+    }
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.8419674634933472
+    }
+  },
+  {
+    "text": "Normally I would eat keto breakfast",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3417763411998749
+    }
+  },
+  {
+    "text": "signing off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.5857240557670593
+    }
+  }
+]

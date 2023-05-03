@@ -1,0 +1,259 @@
+[
+  {
+    "text": "Let's go with A",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "A",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "a",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "a",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "A",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "A",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show top healthy recipes",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cannot have sesame what should I use then?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "sesame",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how many calories does coke have?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.3845404386520386,
+        "value": "calories",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sub_ingredients",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.4093320071697235,
+        "value": "coke",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Diary causes me intolerance",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Diary",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9957544803619385,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "intolerances",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.7755179405212402,
+        "value": "intolerance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Give a simple recipe for hashbrowns",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "hashbrowns",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.9710110425949097,
+        "value": "hashbrowns",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am confused about salad dressings",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "salad dressings",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.9693641662597656,
+        "value": "salad",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "chicken breasts",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.5274385809898376,
+        "value": "chicken",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "recipe for thai green curry",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "thai green curry",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9821642637252808,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "since today is sunday, I wish to make pancakes",
+    "entities": [
+      {
+        "start": 38,
+        "end": 46,
+        "value": "pancakes",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.3968923091888428,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "intolerances",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.6531155109405518,
+        "value": "pancakes",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Normally I would eat keto breakfast",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "value": "keto breakfast",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "current_step_no",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.2061728686094284,
+        "value": "keto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

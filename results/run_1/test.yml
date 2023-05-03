@@ -1,0 +1,555 @@
+version: "3.1"
+nlu:
+- intent: get_recipeid
+  examples: |
+    - Let's go with [A](recipe_id)
+    - [a](recipe_id)
+    - [A](recipe_id)
+    - I choose [B](recipe_id)
+- intent: restart
+  examples: |
+    - Restart
+    - let's start again
+    - /restart
+- intent: bot_challenge
+  examples: |
+    - who are you?
+    - Alana is a girl or guy?
+    - Why are you chatting with me?
+    - what does Alana mean?
+- intent: get_previous_step
+  examples: |
+    - take me to last step
+    - previous please
+    - no I am not done yet go back
+    - back
+    - list previous step
+    - can you get the previous instruction
+- intent: get_n_step
+  examples: |
+    - Go to [first](current_step_no) step
+    - can you go to step [fifth](current_step_no)
+    - okay, now go to step [2](current_step_no)
+    - I did not get step [10](current_step_no)
+    - go to [seventh](current_step_no) step
+    - okay, repeat step [3](current_step_no)
+- intent: know_steps
+  examples: |
+    - what steps should I follow
+    - perfect, now list the steps
+    - help me with steps to follow
+    - what are the recipe instructions?
+    - AT ONCE
+    - what are the recipe instructions for {recipename}
+    - all instructions
+    - help me with recipe instructions
+- intent: know_equipment
+  examples: |
+    - 2. equipment
+    - list equipment again
+    - sorry but repeat equipment for me please
+    - equipment
+    - What are the equipment required for the recipe?
+    - Equipments
+    - hope you dont mind giving equipment
+    - do you mind giving me list of equipment?
+- intent: get_next_step
+  examples: |
+    - One by One
+    - go to next step
+    - Buddy, okay, give me step by step recipes
+    - next
+    - give following step
+    - move on
+    - stepwise
+    - what to do next?
+    - one by one
+    - next instruction please
+- intent: get_sort_type
+  examples: |
+    - [2.H](sort_type)
+    - [r](sort_type)
+    - for now sort by [popularity](sort_type)
+    - [healthiness](sort_type)
+    - [3.Random](sort_type)
+    - [heathly](sort_type)
+    - show top [healthy](sort_type) recipes
+    - [1. popularity](sort_type)
+    - [3. Random](sort_type)
+    - rank recipes [randomly](sort_type)
+    - [p](sort_type)
+    - [1.po](sort_type)
+- intent: confirm_recipe_items
+  examples: |
+    - I understand this uses [full fat coconut milk](recipe_item) ?
+    - did you say [cookie cutter](recipe_item)?
+    - is there any [flour](recipe_item) in it?
+    - did it need to use [spatula](recipe_item)?
+    - will this recipe have [salt](recipe_item)
+    - to confirm it is [bell pepper](recipe_item)?
+    - correct me if I am wrong, we have used [himalayan sea salt](recipe_item)
+    - Do we use [bread](recipe_item)?
+    - have we used [chocolate chips](recipe_item)?
+    - Do we use [berries](recipe_item) in this recipe?
+    - I want to know if we are in need of [almond flour](recipe_item)
+    - will [peanut](recipe_item) be used?
+    - it needs [strainer](recipe_item)
+- intent: get_substitute_ingredient
+  examples: |
+    - get me substitute of [lard](sub_ingredients)
+    - dont have [chickpeas](sub_ingredients)
+    - give better choice for [tapioca flour](sub_ingredients)
+    - give a healthier substitute for [maple syrup](sub_ingredients)
+    - dislike [curry leaves] what to use instead
+    - what if I dont have [lemon juice](sub_ingredients)
+    - what if I dont have [tahini](sub_ingredients)?
+    - give me substitute of [spinach](sub_ingredients)
+    - cannot have [sesame](sub_ingredients) what should I use then?
+    - Hate [garlic](sub_ingredients) tell me a different ingredient
+    - I am on a diet , I cannot eat [sugar](sub_ingredients)
+    - give a better alternative for [full fat coconut milk](sub_ingredients)
+    - don't have [baking soda](sub_ingredients)
+- intent: know_ingredients
+  examples: |
+    - What do I need to buy from store for {recipename}
+    - can you please repeat the ingredient?
+    - can you give me list of ingredients
+    - show ingredients for {recipename}
+    - list ingredients again
+    - buddy, list down ingredients for me
+    - Provide the list of ingredients for {recipename}.
+    - List the components for {recipename}'s recipe.
+    - ingredients again
+    - What are the ingredients required for the recipe?
+    - well, I need to see ingredients before I cook
+    - Can you display the ingredients for {recipename}?
+    - Please provide me with the ingredients for making {recipename}.
+    - Get me ingredients
+- intent: get_dietary_req
+  examples: |
+    - Usually I prefer [gluten free](dietary_req)
+    - [gf](dietary_req)
+    - [gluten free](dietary_req) for me
+    - [G.F](dietary_req)
+    - I prefer [vegan] options(dietary_req)
+    - [4.No dietary requirements](dietary_req)
+    - [GlutenFree](dietary_req)
+    - Give me [vegan](dietary_req) only recipes
+    - I am [veg](dietary_req)
+    - [3. Gluten Free](dietary_req)
+    - [4.NR](dietary_req)
+    - I believe in [Veganism](dietary_req)
+    - [vegan](dietary_req) is better
+    - [V](dietary_req)
+    - [NR](dietary_req)
+- intent: greet
+  examples: |
+    - hey there
+    - ahoy hoy
+    - GE
+    - heyeeeeeeeeeeee
+    - Hello,girl
+    - hello friend
+    - Hey alana
+    - hi ya
+    - Hi bot
+    - Hieeeeeeeeeeeee
+    - hey, what's new
+    - good to see you
+    - howdy, what's new
+    - it's nice to see you
+    - GM
+    - hey you
+- intent: get_info_questions
+  examples: |
+    - Is it ethical to eat seafood that's been caught using nets that can harm dolphins?
+    - When do I know if bananas go bad?
+    - When do mangoes ripe?
+    - Where can I find fresh turmeric in my area in London?
+    - how many calories does coke have?
+    - how is turmeric made?
+    - Is it safe to eat raw eggs in cookie dough?
+    - how is vanilla extracted?
+    - Can I leave a pizza out overnight, or should I refrigerate it?
+    - What fruits and vegetables are in season in the summer?
+    - What is a cream cheese?
+    - Is sugar healthy or unhealthy?
+    - Which country eat most pizzas?
+    - Tell me a food joke
+    - How to know if a nut has gone rancid
+    - What are most popular dishes in scotland?
+    - Why are almonds considered a healthy snack?
+    - Is red wine good for you?
+- intent: get_intolerances
+  examples: |
+    - [3.Peanut](intolerances)
+    - [3.peanuts](intolerances)
+    - [glutan](intolerances)
+    - [No intolerences](intolerances)
+    - [g](intolerances)
+    - I am allergic to [gluten](intolerances)
+    - [ni](intolerances)
+    - [5.NO Intolerances](intolerances)
+    - [nut](intolerances)
+    - [Diary](intolerances) causes me intolerance
+    - I am allergic to [seafood](intolerances)
+    - [2. eggs](intolerances)
+    - [glutain](intolerances)
+    - [PE](intolerances)
+    - [5. NO INTOLERANCES](intolerances)
+    - [Gluten](intolerances)
+    - [Egg](intolerances)
+    - [Glutan](intolerances)
+    - I have upset stomach with [eggs](intolerances)
+    - [3.PE](intolerances)
+    - [3. Gluten](intolerances)
+    - No [gluten](intolerances) for me
+- intent: cook
+  examples: |
+    - cook [tuna salad](recipename)
+    - I usually make [oatmeal] for breakfast
+    - want to cook [vegan cake](recipename)
+    - show me the recipe for {recipename}
+    - I want to cook [pizza](recipename)
+    - help me with cooking [Tandoori Paneer](recipename)
+    - make [Pesto Zucchini Pasta](recipename)
+    - to make [loaded nachos](recipename)
+    - Give a simple recipe for [hashbrowns](recipename)
+    - I want to make [overnight oats](recipename)
+    - I want to cook {recipename}
+    - I want to cook [Sandwich](recipename)
+    - hoping to make [mushroom]
+    - Wish to cook [coconut rice pudding](recipename)
+    - I want to cook [Almond Buns](recipename)
+    - I am confused about [salad dressings](recipename)
+    - recipe for [eggs benedicts](recipename)
+    - interested to know how to make [chicken breasts](recipename)
+    - recipe for [thai green curry](recipename)
+    - since today is sunday, I wish to make [pancakes](recipename)
+    - Normally I would eat [keto breakfast](recipename)
+    - I want to cook [Chocolate Puff Pastry Squares](recipename)
+    - I want to cook [sushi](recipename)
+- intent: goodbye
+  examples: |
+    - See ya
+    - i must say goodbye
+    - talk later
+    - i have to get going
+    - it was really nice to be able to chat with you
+    - take care
+    - i'm outta here!
+    - catch ya later
+    - great chat, talk to you later
+    - TTYL
+    - great talk, take it easy
+    - it was nice to talk it out with you
+    - was great chatting with you
+    - tootles
+    - it was very good to talk to you
+    - see you in a while
+    - until next time
+    - goodbye
+    - it was great to have this conversation with you
+    - adios!
+    - bye was nice talking to you
+    - nice talk, talk to you later
+    - see you. bye
+    - it was pleasant conversing with you
+    - bye-bye
+    - bye for now
+    - peace
+    - thanks, bye
+    - nice seeing you bye
+    - it was nice to get in touch
+    - Until next time
+    - Bye-bye
+    - it is time to say goodbye
+    - Sayonara
+    - it was good to talking to you today
+    - see you soon
+    - signing off
+    - tata for now
+    - it was nice to chat
+- synonym: recipe
+  examples: |
+    - reciepe
+    - receepee
+    - recipee
+    - receepi
+    - recip
+    - dish
+- synonym: Equipment
+  examples: |
+    - equipments
+    - utensils
+    - pots
+    - pans
+    - equpments
+    - equipment
+    - pots and pans
+- synonym: ingredients
+  examples: |
+    - ingridients
+    - ingredient
+    - spices
+    - ingridents
+    - elements
+- synonym: Vegan
+  examples: |
+    - vegan
+    - 1.Vegan
+    - 1.vegan
+    - 1. Vegan
+    - 1. vegan
+    - V
+    - Ve
+    - VE
+    - ve
+    - Vegan
+    - Vegun
+    - vegun
+    - veganism
+    - plant based
+    - plant diet
+    - pro plant
+- synonym: Vegetarian
+  examples: |
+    - vegetarian
+    - Veggies
+    - veggies
+    - vegetarianism
+    - vegism
+    - 2.Vegetarian
+    - 2.vegetarian
+    - 1. Vegetarian
+    - 1. vegetarian
+    - Veg
+    - VG
+    - vg
+- synonym: Gluten Free
+  examples: |
+    - 3. Gluten Free
+    - 3. GlutenFree
+    - 3.Gluten Free
+    - 3.GlutenFree
+    - Gluten Free
+    - GlutenFree
+    - 3. GF
+    - 3.GF
+    - 3.gf
+    - G.F
+    - g.f
+    - GF
+    - gf
+    - glutain free
+    - glutun free
+    - no gluten
+    - gluten free
+    - G f
+    - G F
+    - g f
+    - glutyen free
+    - glutyen fri
+    - gluten fri
+- synonym: No dietary requirements
+  examples: |
+    - none
+    - 4. No dietary requirements
+    - 4.No dietary requirements
+    - no requirements
+    - NDR
+    - NR
+    - 4.NR
+    - 4. NR
+    - 4.nr
+    - nr
+    - Nr
+    - no dietary requirements
+    - No Requirements
+    - No dietary Requirements
+    - none requirements
+- synonym: Dairy
+  examples: |
+    - 1.Dairy
+    - 1. Dairy
+    - 1.Diary
+    - 1. Diary
+    - diary
+    - Dairy
+    - Diary
+    - dairy
+    - milk
+    - milk based
+- synonym: Eggs
+  examples: |
+    - 2.Eggs
+    - 2. Eggs
+    - 2. eggs
+    - 2.eggs
+    - 2. egg
+    - 2.egg
+    - eggs
+    - Eggs
+    - egg
+    - Egg
+- synonym: Gluten
+  examples: |
+    - gluten
+    - 3. gluten
+    - 3.gluten
+    - Gluten
+    - 3. Gluten
+    - 3.Gluten
+    - Glutain
+    - glutain
+    - Glutan
+    - glutan
+    - glutun
+    - glutyen
+    - glyuten
+- synonym: Peanut
+  examples: |
+    - Peanuts
+    - nuts
+    - 3.peanut
+    - 3.peanuts
+    - 3. peanuts
+    - 3. Peanut
+    - 3.Peanuts
+    - 3.Peanut
+    - 3. nuts
+    - nut
+    - 3.nut
+    - PE
+    - pe
+    - 3. PE
+    - 3.PE
+    - 3.pe
+    - 3. pe
+- synonym: No intolerances
+  examples: |
+    - no intolerances
+    - NO INTOLERANCES
+    - NO Intolerances
+    - no Intolerances
+    - No intolerances
+    - NI
+    - ni
+    - no allergies
+    - 5.no intolerances
+    - 5.NO INTOLERANCES
+    - 5.NO Intolerances
+    - 5.no Intolerances
+    - 5.No intolerances
+    - 5.NI
+    - 5. no intolerances
+    - 5. NO INTOLERANCES
+    - 5. NO Intolerances
+    - 5. no Intolerances
+    - 5. No intolerances
+    - 5. NI
+    - NA
+    - Ni
+- synonym: popularity
+  examples: |
+    - 1. popularity
+    - 1.popularity
+    - 1.Popularity
+    - 1.po
+    - 1.PO
+    - PO
+    - po
+    - popularity
+    - Popularity
+    - P
+    - p
+    - popular
+    - pop
+- synonym: healthiness
+  examples: |
+    - 2. healthiness
+    - 2.healthiness
+    - 2.Healthiness
+    - 2.H
+    - 1.h
+    - H
+    - h
+    - healthiness
+    - Healthiness
+    - health wise
+    - health
+    - heathly
+    - healthy
+    - heathy
+    - 
+- synonym: random
+  examples: |
+    - 3. random
+    - 3. Random
+    - 3.random
+    - 3.Random
+    - 3.R
+    - 3.r
+    - r
+    - R
+    - random
+    - Random
+    - randomly
+    - randomness
+- synonym: '1'
+  examples: |
+    - first
+    - top
+    - fist
+    - one
+- synonym: '2'
+  examples: |
+    - second
+    - two
+    - secnd
+- synonym: '3'
+  examples: |
+    - third
+    - three
+    - thre
+    - thrd
+    - 3rd
+- synonym: '4'
+  examples: |
+    - fourth
+    - forth
+    - four
+    - 4th
+- synonym: '5'
+  examples: |
+    - fifth
+    - fiveth
+    - five
+    - 5th
+- synonym: '6'
+  examples: |
+    - sixth
+    - six
+    - 6th
+- synonym: '7'
+  examples: |
+    - seventh
+    - seven
+    - sevn
+    - 7th
+- synonym: '8'
+  examples: |
+    - eighth
+    - eight
+    - eigth
+- synonym: '9'
+  examples: |
+    - ninth
+    - nine
+    - nineth
+    - 9th
+- synonym: '10'
+  examples: |
+    - tenth
+    - ten
+    - 10th

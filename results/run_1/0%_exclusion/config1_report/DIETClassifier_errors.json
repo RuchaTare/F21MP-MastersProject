@@ -1,0 +1,401 @@
+[
+  {
+    "text": "give only first only",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "first",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.8640124797821045,
+        "value": "grill",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "po",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "po",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "list [healthy] recipes only",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.9662449359893799,
+        "value": "healthiness",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Did you say food processor",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "food processor",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "did we use food processor",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "food processor",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.565332293510437,
+        "value": "processor",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it needs strainer",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "strainer",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 41,
+        "confidence_entity": 0.566679060459137,
+        "value": "potato scratch",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "need options for not having eggs",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "eggs",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.5074900388717651,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give a better alternative for full fat coconut milk",
+    "entities": [
+      {
+        "start": 30,
+        "end": 51,
+        "value": "full fat coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.7333037257194519,
+        "value": "fat",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sub_ingredients",
+        "start": 39,
+        "end": 51,
+        "confidence_entity": 0.749862790107727,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "instead of lemons what else?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "lemons",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9540761709213257,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "veggies",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.48897793889045715,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "dietary_req",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.9056333303451538,
+        "value": "Vegetarian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Who is negatively affected by the overfishing of certain seafood?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.44641008973121643,
+        "value": "seafood",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how is vanilla extracted?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.4949471056461334,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Where does vanilla come from?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.37380552291870117,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is falafel vegan?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.5822441577911377,
+        "value": "falafel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dietary_req",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9008013606071472,
+        "value": "Vegan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "pe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "pe",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 1,
+        "end": 5,
+        "confidence_entity": 0.8966196179389954,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how to bake Homemade Macaroni and Cheese Muffin Cups",
+    "entities": [
+      {
+        "start": 12,
+        "end": 52,
+        "value": "Homemade Macaroni and Cheese Muffin Cups",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.594312310218811,
+        "value": "Macaroni",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 34,
+        "end": 47,
+        "confidence_entity": 0.6178096532821655,
+        "value": "Cheese Muffin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "chicken breasts",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.6758849620819092,
+        "value": "chicken",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.6312235593795776,
+        "value": "oatmeal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

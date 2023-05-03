@@ -1,0 +1,348 @@
+[
+  {
+    "text": "give only first only",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "first",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Did you say food processor",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "food processor",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.40904825925827026,
+        "value": "food",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I understand this uses full fat coconut milk ?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 44,
+        "value": "full fat coconut milk",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 32,
+        "end": 44,
+        "confidence_entity": 0.8639561533927917,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.4744066298007965,
+        "value": "potato",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "dont have baking soda, is there anything else?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 21,
+        "value": "baking soda",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.3360609710216522,
+        "value": "baking",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.4266110360622406,
+        "value": "soda",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give a better alternative for full fat coconut milk",
+    "entities": [
+      {
+        "start": 30,
+        "end": 51,
+        "value": "full fat coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 39,
+        "end": 51,
+        "confidence_entity": 0.7934077382087708,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "instead of lemons what else?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "lemons",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How to know if a nut has gone rancid",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.49077269434928894,
+        "value": "Peanut",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Which Youtubers are best for vegan cooking?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.6327624917030334,
+        "value": "Vegan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how is vanilla extracted?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.22978872060775757,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is falafel vegan?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.5077798366546631,
+        "value": "falafel",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dietary_req",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.8865722417831421,
+        "value": "Vegan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "pe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "pe",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "PE",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "PE",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how to bake Homemade Macaroni and Cheese Muffin Cups",
+    "entities": [
+      {
+        "start": 12,
+        "end": 52,
+        "value": "Homemade Macaroni and Cheese Muffin Cups",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 52,
+        "confidence_entity": 0.7986664175987244,
+        "value": "Macaroni and Cheese Muffin Cups",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to make Greek Spinach Pie",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "value": "Greek Spinach Pie",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.48130443692207336,
+        "value": "spinach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me the recipe for grilled chicken",
+    "entities": [
+      {
+        "start": 23,
+        "end": 38,
+        "value": "grilled chicken",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.620231568813324,
+        "value": "chicken",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need help with cooking Poached Egg",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "Poached Egg",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.7239298224449158,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "chicken breasts",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.569667637348175,
+        "value": "oatmeal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

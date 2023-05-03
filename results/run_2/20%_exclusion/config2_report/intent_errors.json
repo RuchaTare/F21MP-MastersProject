@@ -1,0 +1,146 @@
+[
+  {
+    "text": "Give E",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3412509262561798
+    }
+  },
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.5245677828788757
+    }
+  },
+  {
+    "text": "what is Alana?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.48414891958236694
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.5524716377258301
+    }
+  },
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.7904805541038513
+    }
+  },
+  {
+    "text": "give instructions at once for making {recipename}",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.7886651158332825
+    }
+  },
+  {
+    "text": "I want to know if we are in need of almond flour",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9103336334228516
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.9646808505058289
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.6384387612342834
+    }
+  },
+  {
+    "text": "I dont like coconut milk suggest a new ingredient",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.38088560104370117
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9978475570678711
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9997144341468811
+    }
+  },
+  {
+    "text": "it is good to see you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8683609366416931
+    }
+  },
+  {
+    "text": "it's good to see you",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6136220693588257
+    }
+  },
+  {
+    "text": "What do you mean by al dante?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7818855047225952
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.8035487532615662
+    }
+  },
+  {
+    "text": "I latte",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.7858686447143555
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.776512086391449
+    }
+  }
+]

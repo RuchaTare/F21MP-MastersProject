@@ -1,0 +1,154 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8630491495132446
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.8071280121803284
+    }
+  },
+  {
+    "text": "what is your identity?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.5629575848579407
+    }
+  },
+  {
+    "text": "give only first only",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.5364342331886292
+    }
+  },
+  {
+    "text": "AO",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7622802257537842
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9209051728248596
+    }
+  },
+  {
+    "text": "p",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.875223696231842
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.4525388777256012
+    }
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.6458776593208313
+    }
+  },
+  {
+    "text": "why, hello bandit",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.6672689914703369
+    }
+  },
+  {
+    "text": "heller",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.5813490748405457
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999302625656128
+    }
+  },
+  {
+    "text": "GM",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9412389993667603
+    }
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9693868160247803
+    }
+  },
+  {
+    "text": "how many calories does coke have?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.5665797591209412
+    }
+  },
+  {
+    "text": "Is falafel vegan?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9853641390800476
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9994828701019287
+    }
+  },
+  {
+    "text": "it was nice to see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6590095162391663
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9985862970352173
+    }
+  }
+]

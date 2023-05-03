@@ -1,0 +1,114 @@
+[
+  {
+    "text": "let's go again",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.4590439200401306
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.3930359184741974
+    }
+  },
+  {
+    "text": "Step wise",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.6520776152610779
+    }
+  },
+  {
+    "text": "Did you say honey",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6866540312767029
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9397245645523071
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9923924207687378
+    }
+  },
+  {
+    "text": "Tell me a food trivia",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.802257776260376
+    }
+  },
+  {
+    "text": "Give me a did you know trivia about food",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7697474360466003
+    }
+  },
+  {
+    "text": "Tell me a food joke",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9935395121574402
+    }
+  },
+  {
+    "text": "What can you tell me about Pino Noir",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.37585368752479553
+    }
+  },
+  {
+    "text": "All good. No intolerances",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6894583106040955
+    }
+  },
+  {
+    "text": "I cannot take Eggs",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.7712050080299377
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9336912631988525
+    }
+  },
+  {
+    "text": "toodle-oo",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.28959259390830994
+    }
+  }
+]

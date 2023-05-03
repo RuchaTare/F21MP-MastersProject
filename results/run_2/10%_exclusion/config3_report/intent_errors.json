@@ -1,0 +1,210 @@
+[
+  {
+    "text": "let's go again",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5856157541275024
+    }
+  },
+  {
+    "text": "who do you identify as?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9950850605964661
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6390771269798279
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.3653791546821594
+    }
+  },
+  {
+    "text": "What steps do I need to do this recipe?",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.7939925193786621
+    }
+  },
+  {
+    "text": "sorry but repeat equipment for me please",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.8808199763298035
+    }
+  },
+  {
+    "text": "give following step",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.9967137575149536
+    }
+  },
+  {
+    "text": "Step wise",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.9117724895477295
+    }
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9703636169433594
+    }
+  },
+  {
+    "text": "dont have chickpeas",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.7692422866821289
+    }
+  },
+  {
+    "text": "chpice vegan butter",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9255391955375671
+    }
+  },
+  {
+    "text": "I follow vegan diet",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.791981041431427
+    }
+  },
+  {
+    "text": "V",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.23260925710201263
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.16264225542545319
+    }
+  },
+  {
+    "text": "hiee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.23260925710201263
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.16264225542545319
+    }
+  },
+  {
+    "text": "Tell me a food trivia",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9907436966896057
+    }
+  },
+  {
+    "text": "Give me a did you know trivia about food",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.334759384393692
+    }
+  },
+  {
+    "text": "Why is India so hot?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8632838129997253
+    }
+  },
+  {
+    "text": "What can you tell me about Pino Noir",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.36272332072257996
+    }
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9999455213546753
+    }
+  },
+  {
+    "text": "I am craving for a good smoked salmon",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.14941254258155823
+    }
+  },
+  {
+    "text": "how to bake Homemade Macaroni and Cheese Muffin Cups",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.866920530796051
+    }
+  },
+  {
+    "text": "Au revoir",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.16264225542545319
+    }
+  },
+  {
+    "text": "buhbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.23260925710201263
+    }
+  },
+  {
+    "text": "see you in a while",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6805977821350098
+    }
+  }
+]

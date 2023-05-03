@@ -1,0 +1,98 @@
+[
+  {
+    "text": "d",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.999958872795105
+    }
+  },
+  {
+    "text": "D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9999779462814331
+    }
+  },
+  {
+    "text": "E",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.6121559739112854
+    }
+  },
+  {
+    "text": "at once",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8671491146087646
+    }
+  },
+  {
+    "text": "then",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8244617581367493
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.999289870262146
+    }
+  },
+  {
+    "text": "what instead of {sub_ingredients}",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.6851305961608887
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9951033592224121
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6901199221611023
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9990670084953308
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999659061431885
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9695571064949036
+    }
+  }
+]

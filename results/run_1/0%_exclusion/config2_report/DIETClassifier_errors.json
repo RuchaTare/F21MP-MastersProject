@@ -1,0 +1,392 @@
+[
+  {
+    "text": "give only first only",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "first",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.8600137829780579,
+        "value": "grill",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list [healthy] recipes only",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.9548231959342957,
+        "value": "healthiness",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Did you say food processor",
+    "entities": [
+      {
+        "start": 12,
+        "end": 26,
+        "value": "food processor",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.44522911310195923,
+        "value": "food",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.7545194625854492,
+        "value": "potato",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give a better alternative for full fat coconut milk",
+    "entities": [
+      {
+        "start": 30,
+        "end": 51,
+        "value": "full fat coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 39,
+        "end": 51,
+        "confidence_entity": 0.9643449187278748,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "instead of lemons what else?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "lemons",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cannot have sesame what should I use then?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 18,
+        "value": "sesame",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.8414216637611389,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "veggies",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "No special requirements for me",
+    "entities": [
+      {
+        "start": 0,
+        "end": 23,
+        "value": "No special requirements",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 11,
+        "end": 23,
+        "confidence_entity": 0.6430432200431824,
+        "value": "requirements",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "How to know if a nut has gone rancid",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.2592320144176483,
+        "value": "Peanut",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 3,
+        "end": 6,
+        "confidence_entity": 0.5978756546974182,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "dietary_req",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.6666268706321716,
+        "value": "Vegetarian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "how is vanilla extracted?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.27828139066696167,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many calories does coke have?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.42249682545661926,
+        "value": "coke",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Where does vanilla come from?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.4867260158061981,
+        "value": "vanilla",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is falafel vegan?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 3,
+        "end": 16,
+        "confidence_entity": 0.26497018337249756,
+        "value": "falafel vegan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "pe",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "PE",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "PE",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 1,
+        "end": 5,
+        "confidence_entity": 0.3087233603000641,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to make Greek Spinach Pie",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "value": "Greek Spinach Pie",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.646928608417511,
+        "value": "spinach",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I need help with cooking Poached Egg",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "Poached Egg",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.781098484992981,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "entities": [
+      {
+        "start": 31,
+        "end": 46,
+        "value": "chicken breasts",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.9107515215873718,
+        "value": "chicken",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

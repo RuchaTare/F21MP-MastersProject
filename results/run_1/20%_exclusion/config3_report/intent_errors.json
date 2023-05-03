@@ -1,0 +1,250 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9995337724685669
+    }
+  },
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7302541732788086
+    }
+  },
+  {
+    "text": "let's start again",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8357972502708435
+    }
+  },
+  {
+    "text": "bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6934230923652649
+    }
+  },
+  {
+    "text": "I havent completed previosu step",
+    "intent": "get_previous_step",
+    "intent_prediction": {
+      "name": "get_n_step",
+      "confidence": 0.8066163659095764
+    }
+  },
+  {
+    "text": "one step back",
+    "intent": "get_previous_step",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.6309065818786621
+    }
+  },
+  {
+    "text": "whoa, wait give me first step only",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.7378571629524231
+    }
+  },
+  {
+    "text": "What steps do I need to do this recipe?",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.7428557276725769
+    }
+  },
+  {
+    "text": "okay list pots and pans",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.9953759908676147
+    }
+  },
+  {
+    "text": "what are pots and pans for this {recipe_name}",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.5667742490768433
+    }
+  },
+  {
+    "text": "Tell me step by step recipes",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "get_n_step",
+      "confidence": 0.46028169989585876
+    }
+  },
+  {
+    "text": "move on",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.27032744884490967
+    }
+  },
+  {
+    "text": "give me heathly recipes",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.8935174345970154
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9642072916030884
+    }
+  },
+  {
+    "text": "it should need vanilla bean paste correct?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.978071928024292
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.9949052333831787
+    }
+  },
+  {
+    "text": "I am looking to replace cacao nibs",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.9309124946594238
+    }
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.3181694447994232
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.9592676162719727
+    }
+  },
+  {
+    "text": "G.F",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9999563694000244
+    }
+  },
+  {
+    "text": "What's the difference between all-purpose flour and bread flour",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.4927002489566803
+    }
+  },
+  {
+    "text": "What is a cream cheese?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.8450456261634827
+    }
+  },
+  {
+    "text": "Who is the best cook in the world?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9179844260215759
+    }
+  },
+  {
+    "text": "Suggest me wine pairings with Basil Pesto",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9999538660049438
+    }
+  },
+  {
+    "text": "what is a clove?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4608408212661743
+    }
+  },
+  {
+    "text": "glutyen",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.36459681391716003
+    }
+  },
+  {
+    "text": "I dont eat sea food",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9236107468605042
+    }
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.6198235154151917
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9979518055915833
+    }
+  },
+  {
+    "text": "regards",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.36459681391716003
+    }
+  },
+  {
+    "text": "TTYL",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.36459681391716003
+    }
+  }
+]

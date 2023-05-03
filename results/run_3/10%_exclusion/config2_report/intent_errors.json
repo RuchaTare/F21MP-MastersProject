@@ -1,0 +1,106 @@
+[
+  {
+    "text": "d",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9764869809150696
+    }
+  },
+  {
+    "text": "D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9764869809150696
+    }
+  },
+  {
+    "text": "suggest most [popular] (sort_type)",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.32603955268859863
+    }
+  },
+  {
+    "text": "I will go with health",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6095547080039978
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9836437106132507
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9358028769493103
+    }
+  },
+  {
+    "text": "I am ve",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7339795827865601
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.906140923500061
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.44521573185920715
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999934434890747
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9383642077445984
+    }
+  },
+  {
+    "text": "signing off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.2891565263271332
+    }
+  }
+]

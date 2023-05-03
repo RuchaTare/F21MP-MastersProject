@@ -1,0 +1,146 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999020099639893
+    }
+  },
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9973968267440796
+    }
+  },
+  {
+    "text": "What is a recipe bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.3717600107192993
+    }
+  },
+  {
+    "text": "give instructions at once for making {recipename}",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9258175492286682
+    }
+  },
+  {
+    "text": "Heathiest recipe",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.8456530570983887
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.8730853796005249
+    }
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.8110185861587524
+    }
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.26399776339530945
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.5587441325187683
+    }
+  },
+  {
+    "text": "I am ve",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.563758373260498
+    }
+  },
+  {
+    "text": "VG",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.721709132194519
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.999235987663269
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7459948658943176
+    }
+  },
+  {
+    "text": "goodevening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9382338523864746
+    }
+  },
+  {
+    "text": "Suggest me wine pairings with Basil Pesto",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9830717444419861
+    }
+  },
+  {
+    "text": "I avoid eating seafood",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.46856003999710083
+    }
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9812736511230469
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5858802199363708
+    }
+  }
+]

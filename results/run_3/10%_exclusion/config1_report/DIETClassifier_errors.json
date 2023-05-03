@@ -1,0 +1,503 @@
+[
+  {
+    "text": "d",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "d",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9893258810043335,
+        "value": "D",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "D",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "D",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9674761891365051,
+        "value": "D",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what is step 6",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "6",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "healthy recipes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "rank most popular recipes",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "popular",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.7360349893569946,
+        "value": "most",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sort_type",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.9950762391090393,
+        "value": "popularity",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "will there be ladle used?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "ladle",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is there sea salt in the recipe",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "sea salt",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.5886572003364563,
+        "value": "salt",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "eggs",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do we use whisk in this recipe?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "whisk",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "to confirm it is bell pepper?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "bell pepper",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.7708502411842346,
+        "value": "potato",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sub_ingredients",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.9071395397186279,
+        "value": "scratch",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking to replace cacao nibs",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "value": "cacao nibs",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.6431891322135925,
+        "value": "cacao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can I get substitute of all purpose flour",
+    "entities": [
+      {
+        "start": 24,
+        "end": 41,
+        "value": "all purpose flour",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 28,
+        "end": 41,
+        "confidence_entity": 0.7805231809616089,
+        "value": "purpose flour",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9934319853782654,
+        "value": "curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 28,
+        "end": 29,
+        "confidence_entity": 0.6256470680236816,
+        "value": "n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.6297522187232971,
+        "value": "hummus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What's the best way to cook Brussels sprouts?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 28,
+        "end": 44,
+        "confidence_entity": 0.5630987882614136,
+        "value": "Brussels sprouts",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is it traditional to use coconut milk in Thai curry?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.37796416878700256,
+        "value": "coconut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When is the best time to buy fresh strawberries?\"",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 35,
+        "end": 47,
+        "confidence_entity": 0.34363996982574463,
+        "value": "strawberries",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "No eggs for me",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "eggs",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4695601761341095,
+        "value": "No",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9144023060798645,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I dont eat sea food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "sea food",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9772782921791077,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3. Gluten",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "3. Gluten",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.5623248219490051,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.44487616419792175,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No gluten for me",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "gluten",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dietary_req",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.96510910987854,
+        "value": "No",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dietary_req",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.5622544288635254,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Give me recipe for cookie dough",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "cookie dough",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.48382872343063354,
+        "value": "cookie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Normally I would eat keto breakfast",
+    "entities": [
+      {
+        "start": 21,
+        "end": 35,
+        "value": "keto breakfast",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can we make avocado shake",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "avocado shake",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.7768681049346924,
+        "value": "avocado",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

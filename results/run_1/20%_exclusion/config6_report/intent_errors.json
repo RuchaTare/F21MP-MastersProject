@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9954869151115417
+    }
+  },
+  {
+    "text": "a",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.371103972196579
+    }
+  },
+  {
+    "text": "A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.371103972196579
+    }
+  },
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.6770992875099182
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9942402839660645
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5588924288749695
+    }
+  },
+  {
+    "text": "how many calories does coke have?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.6681673526763916
+    }
+  },
+  {
+    "text": "I am confused about salad dressings",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.5057446956634521
+    }
+  },
+  {
+    "text": "signing off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.24972665309906006
+    }
+  }
+]

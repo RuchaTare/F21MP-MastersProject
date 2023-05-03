@@ -1,0 +1,176 @@
+{
+  "get_dietary_req": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "get_info_questions": {
+    "precision": 0.8947368421052632,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.918918918918919,
+    "support": 18,
+    "confused_with": {
+      "goodbye": 1
+    }
+  },
+  "restart": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "Restart": 1
+    }
+  },
+  "know_steps": {
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1-score": 0.7999999999999999,
+    "support": 8,
+    "confused_with": {
+      "get_next_step": 1,
+      "cook": 1
+    }
+  },
+  "greet": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 16,
+    "confused_with": {}
+  },
+  "get_recipeid": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "cook": 1
+    }
+  },
+  "get_next_step": {
+    "precision": 0.8181818181818182,
+    "recall": 0.9,
+    "f1-score": 0.8571428571428572,
+    "support": 10,
+    "confused_with": {
+      "know_steps": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.972972972972973,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9473684210526315,
+    "support": 39,
+    "confused_with": {
+      "greet": 2,
+      "get_next_step": 1
+    }
+  },
+  "know_ingredients": {
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.962962962962963,
+    "support": 14,
+    "confused_with": {
+      "get_info_questions": 1
+    }
+  },
+  "get_intolerances": {
+    "precision": 0.9565217391304348,
+    "recall": 1.0,
+    "f1-score": 0.9777777777777777,
+    "support": 22,
+    "confused_with": {}
+  },
+  "get_sort_type": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 12,
+    "confused_with": {
+      "cook": 1
+    }
+  },
+  "get_previous_step": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "get_substitute_ingredient": {
+    "precision": 0.9166666666666666,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8799999999999999,
+    "support": 13,
+    "confused_with": {
+      "cook": 1,
+      "get_intolerances": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "get_info_questions": 1
+    }
+  },
+  "cook": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.8979591836734695,
+    "support": 23,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "get_n_step": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "greet": 1
+    }
+  },
+  "know_equipment": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "get_substitute_ingredient": 1
+    }
+  },
+  "confirm_recipe_items": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9313304721030042,
+    "recall": 0.9273504273504274,
+    "f1-score": 0.9293361884368307,
+    "support": 234
+  },
+  "macro avg": {
+    "precision": 0.9479098190196589,
+    "recall": 0.8911352804468746,
+    "f1-score": 0.9135694836809942,
+    "support": 234
+  },
+  "weighted avg": {
+    "precision": 0.9372301432986171,
+    "recall": 0.9273504273504274,
+    "f1-score": 0.9291616641890879,
+    "support": 234
+  },
+  "accuracy": 0.9273504273504274
+}

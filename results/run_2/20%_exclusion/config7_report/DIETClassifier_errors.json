@@ -1,0 +1,317 @@
+[
+  {
+    "text": "step tenth",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "tenth",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "go to top",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "top",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.5802144408226013,
+        "value": "grill",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "po",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "po",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Heathiest recipe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Heathiest",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "did you say cookie cutter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "cookie cutter",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.6313977241516113,
+        "value": "cookie",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Did you say honey",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "honey",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "don't have baking soda",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "baking soda",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.4034413695335388,
+        "value": "don't have baking",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.35076525807380676,
+        "value": "soda",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Absolutely hate cabbagge give something else",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "cabbagge",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dont have chickpeas",
+    "entities": [
+      {
+        "start": 10,
+        "end": 19,
+        "value": "chickpeas",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 10,
+        "end": 19,
+        "confidence_entity": 0.3639467656612396,
+        "value": "chickpeas",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I am ve",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "ve",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I believe in Veganism",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "Veganism",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "veggies",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is it traditional to use coconut milk in Thai curry?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 25,
+        "end": 37,
+        "confidence_entity": 0.5766906142234802,
+        "value": "coconut milk",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 41,
+        "end": 51,
+        "confidence_entity": 0.35484910011291504,
+        "value": "Thai curry",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who is negatively affected by the overfishing of certain seafood?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.27629566192626953,
+        "value": "Seafood",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Diary causes me intolerance",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Diary",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9855704307556152,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "intolerances",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.5354121327400208,
+        "value": "intolerance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "spinach pesto",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am confused about salad dressings",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "salad dressings",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.6062767505645752,
+        "value": "salad",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Anything that has fish",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "fish",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

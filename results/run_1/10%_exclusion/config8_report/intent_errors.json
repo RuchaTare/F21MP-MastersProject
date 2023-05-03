@@ -1,0 +1,106 @@
+[
+  {
+    "text": "Let's go with A",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "what does Alana mean?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.654162585735321
+    }
+  },
+  {
+    "text": "I did not get step 10",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.5349522829055786
+    }
+  },
+  {
+    "text": "perfect, now list the steps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.9439141750335693
+    }
+  },
+  {
+    "text": "One by One",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9982640147209167
+    }
+  },
+  {
+    "text": "one by one",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9982640147209167
+    }
+  },
+  {
+    "text": "for now sort by popularity",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9998981952667236
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9999966621398926
+    }
+  },
+  {
+    "text": "don't have baking soda",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.9758893251419067
+    }
+  },
+  {
+    "text": "heyeeeeeeeeeeee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999804496765137
+    }
+  },
+  {
+    "text": "Hieeeeeeeeeeeee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9987989664077759
+    }
+  },
+  {
+    "text": "Tell me a food joke",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.975814938545227
+    }
+  },
+  {
+    "text": "signing off",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "restart",
+      "confidence": 0.4863249957561493
+    }
+  }
+]

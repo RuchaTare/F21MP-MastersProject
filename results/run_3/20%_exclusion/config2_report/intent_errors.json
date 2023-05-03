@@ -1,0 +1,114 @@
+[
+  {
+    "text": "d",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9982073307037354
+    }
+  },
+  {
+    "text": "D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9982073307037354
+    }
+  },
+  {
+    "text": "clear",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.895849347114563
+    }
+  },
+  {
+    "text": "Why are you chatting with me?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5571300983428955
+    }
+  },
+  {
+    "text": "then",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7722379565238953
+    }
+  },
+  {
+    "text": "suggest most [popular] (sort_type)",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.21040397882461548
+    }
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.9450350999832153
+    }
+  },
+  {
+    "text": "what spices are used in this recipe?",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.6304166316986084
+    }
+  },
+  {
+    "text": "sorry but please repeat the n",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.5495572686195374
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9972360730171204
+    }
+  },
+  {
+    "text": "aloha",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9991027116775513
+    }
+  },
+  {
+    "text": "What else can I use chickpeas for besides hummus?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.9708778858184814
+    }
+  },
+  {
+    "text": "No using gluten for my recipes",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.7701274156570435
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.33990490436553955
+    }
+  }
+]

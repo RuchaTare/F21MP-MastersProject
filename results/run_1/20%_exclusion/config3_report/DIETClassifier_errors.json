@@ -1,0 +1,854 @@
+[
+  {
+    "text": "I want to go with D",
+    "entities": [
+      {
+        "start": 18,
+        "end": 19,
+        "value": "D",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 18,
+        "end": 19,
+        "confidence_entity": 0.9463808536529541,
+        "value": "d",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Let's go with A",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "A",
+        "entity": "recipe_id"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "whoa, wait give me first step only",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "first",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Go to first step",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "first",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "go to step 8?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "8",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "current_step_no",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9996962547302246,
+        "value": "8",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "current_step_no",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9271456599235535,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "okay list pots and pans",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.35402607917785645,
+        "value": "and pans",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are pots and pans for this {recipe_name}",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.6283034086227417,
+        "value": "Equipment",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "and then",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.24143299460411072,
+        "value": "and",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I prefer healthy recipes more",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.8632864356040955,
+        "value": "healthiness",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sort_type",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.779698371887207,
+        "value": "more",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "top random recipes",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "random",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.5054628849029541,
+        "value": "1",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "sort_type",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.8401526212692261,
+        "value": "random",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Do we use bread?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "bread",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.7395750880241394,
+        "value": "bread?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is eggs in the ingredients?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "eggs",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Did we use turmeric here?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "turmeric",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "it should need vanilla bean paste correct?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 33,
+        "value": "vanilla bean paste",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.8132335543632507,
+        "value": "correct",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is there pressure cooker in the list",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "pressure cooker",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.5111659169197083,
+        "value": "cooker",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "alright so I understand this requires coconut milk?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 50,
+        "value": "coconut milk",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 19,
+        "value": "butternut squash",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give alternative for rice",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "rice",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.7201679944992065,
+        "value": "rice",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can anything instead of cloves work?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 30,
+        "value": "cloves",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.438291996717453,
+        "value": "work?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am looking to replace cacao nibs",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "value": "cacao nibs",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 24,
+        "end": 34,
+        "confidence_entity": 0.8590023517608643,
+        "value": "cacao nibs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "not allowed to have hazelnuts what should I use?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "hazelnuts",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "looking for alternatives to vanilla extract",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "value": "vanilla extract",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 28,
+        "end": 43,
+        "confidence_entity": 0.9020295739173889,
+        "value": "vanilla extract",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suggest me substitute for [potato scratch]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 27,
+        "end": 42,
+        "confidence_entity": 0.6097050309181213,
+        "value": "potato scratch]",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "G.F",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "G.F",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.997072696685791,
+        "value": "Gluten Free",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "heyeeeeeeeeeeee",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.4687720239162445,
+        "value": "heyeeeeeeeeeeee",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.4687720239162445,
+        "value": "yo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "goodevening",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.4687720239162445,
+        "value": "goodevening",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What's the difference between all-purpose flour and bread flour",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.6500551700592041,
+        "value": "all",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sub_ingredients",
+        "start": 34,
+        "end": 47,
+        "confidence_entity": 0.4967744052410126,
+        "value": "purpose flour",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipe_item",
+        "start": 58,
+        "end": 63,
+        "confidence_entity": 0.7828213572502136,
+        "value": "flour",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "What is a cream cheese?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.8475947380065918,
+        "value": "cheese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Suggest me wine pairings with Basil Pesto",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 30,
+        "end": 41,
+        "confidence_entity": 0.916336178779602,
+        "value": "basil pesto",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "No gluten for me",
+    "entities": [
+      {
+        "start": 3,
+        "end": 9,
+        "value": "gluten",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.6478294134140015,
+        "value": "No",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "intolerances",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9771231412887573,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "glutyen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "glutyen",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.4687720239162445,
+        "value": "Gluten",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I dont eat sea food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "sea food",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.5916962623596191,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need help with cooking Poached Egg",
+    "entities": [
+      {
+        "start": 25,
+        "end": 36,
+        "value": "Poached Egg",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.7577113509178162,
+        "value": "Eggs",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I wish to make pumpkin spice loaf",
+    "entities": [
+      {
+        "start": 15,
+        "end": 33,
+        "value": "pumpkin spice loaf",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.7438058257102966,
+        "value": "spice loaf",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "spinach pesto",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "would love to bake a nice pumpkin spice loaf",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "value": "pumpkin spice loaf",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "to make loaded nachos",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "loaded nachos",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.744978666305542,
+        "value": "nachos",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hoping to make [mushroom]",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.9720574617385864,
+        "value": "mushroom",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "recipename",
+        "start": 24,
+        "end": 25,
+        "confidence_entity": 0.988280177116394,
+        "value": "]",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I usually make [oatmeal] for breakfast",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.5273491740226746,
+        "value": "breakfast",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "french fries",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "french fries",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9736582040786743,
+        "value": "french",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recipe for thai green curry",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "thai green curry",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to make Spiced Hummus",
+    "entities": [
+      {
+        "start": 15,
+        "end": 28,
+        "value": "Spiced Hummus",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9987505674362183,
+        "value": "hummus",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "regards",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.4687720239162445,
+        "value": "regards",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "TTYL",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.4687720239162445,
+        "value": "TTYL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

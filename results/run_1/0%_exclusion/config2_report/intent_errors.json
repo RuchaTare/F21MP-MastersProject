@@ -1,0 +1,106 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9809185862541199
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.37759074568748474
+    }
+  },
+  {
+    "text": "give only first only",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.5133364796638489
+    }
+  },
+  {
+    "text": "AO",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3699014484882355
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.832187294960022
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9198786616325378
+    }
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9695772528648376
+    }
+  },
+  {
+    "text": "heller",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.8977271914482117
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9985859394073486
+    }
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.6716842651367188
+    }
+  },
+  {
+    "text": "Is falafel vegan?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9027531743049622
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9772776365280151
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9869513511657715
+    }
+  }
+]

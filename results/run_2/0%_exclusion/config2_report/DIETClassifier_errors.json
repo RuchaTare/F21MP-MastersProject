@@ -1,0 +1,245 @@
+[
+  {
+    "text": "go to top",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "top",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "most healthy",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "most healthy",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sort_type",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9361046552658081,
+        "value": "healthiness",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "to confirm it is bell pepper?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "bell pepper",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is butternut squash one of the equipment?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 19,
+        "value": "butternut squash",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hate garlic tell me a different ingredient",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "garlic",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I dont like coconut milk suggest a new ingredient",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "coconut milk",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.3846546709537506,
+        "value": "coconut",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When is the best time to buy fresh strawberries?\"",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 35,
+        "end": 47,
+        "confidence_entity": 0.19384422898292542,
+        "value": "strawberries",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Diary causes me intolerance",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Diary",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9970160722732544,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "intolerances",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.6891302466392517,
+        "value": "intolerance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "[milk based] food dont suit me",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 1,
+        "end": 5,
+        "confidence_entity": 0.42111343145370483,
+        "value": "Dairy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I dont eat sea food",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "sea food",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9760515689849854,
+        "value": "sea",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "let's make oats upma recipe",
+    "entities": [
+      {
+        "start": 11,
+        "end": 27,
+        "value": "oats upma recipe",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9863522052764893,
+        "value": "oats",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How do I make dolma",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "dolma",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I latte",
+    "entities": [
+      {
+        "start": 2,
+        "end": 7,
+        "value": "latte",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 2,
+        "end": 7,
+        "confidence_entity": 0.30282026529312134,
+        "value": "latte",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How about cooking something with pork",
+    "entities": [
+      {
+        "start": 33,
+        "end": 37,
+        "value": "pork",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

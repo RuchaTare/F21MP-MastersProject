@@ -1,0 +1,298 @@
+[
+  {
+    "text": "let's go again",
+    "intent": "restart",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.45107367634773254
+    }
+  },
+  {
+    "text": "who do you identify as?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.34859463572502136
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6720708608627319
+    }
+  },
+  {
+    "text": "go to top",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "get_sort_type",
+      "confidence": 0.4367038309574127
+    }
+  },
+  {
+    "text": "What steps do I need to do this recipe?",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_next_step",
+      "confidence": 0.807354748249054
+    }
+  },
+  {
+    "text": "can you tell me instructions",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "get_previous_step",
+      "confidence": 0.5540042519569397
+    }
+  },
+  {
+    "text": "before anything else, display the instructions for this recipe",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.4455256462097168
+    }
+  },
+  {
+    "text": "sorry but repeat equipment for me please",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.6843922138214111
+    }
+  },
+  {
+    "text": "Tell me step by step recipes",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.6644783616065979
+    }
+  },
+  {
+    "text": "give following step",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.9906681180000305
+    }
+  },
+  {
+    "text": "Step wise",
+    "intent": "get_next_step",
+    "intent_prediction": {
+      "name": "know_steps",
+      "confidence": 0.9041971564292908
+    }
+  },
+  {
+    "text": "Did you say honey",
+    "intent": "confirm_recipe_items",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8278182148933411
+    }
+  },
+  {
+    "text": "dislike [curry leaves] what to use instead",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.8446235060691833
+    }
+  },
+  {
+    "text": "dont have chickpeas",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.922723650932312
+    }
+  },
+  {
+    "text": "what if I dont have olive oil",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.47713616490364075
+    }
+  },
+  {
+    "text": "List the components for {recipename}'s recipe.",
+    "intent": "know_ingredients",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.7781173586845398
+    }
+  },
+  {
+    "text": "V",
+    "intent": "get_dietary_req",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.37184157967567444
+    }
+  },
+  {
+    "text": "ahoy hoy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.25898468494415283
+    }
+  },
+  {
+    "text": "hiee",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.37184157967567444
+    }
+  },
+  {
+    "text": "salutations!",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.25898468494415283
+    }
+  },
+  {
+    "text": "Tell me a food trivia",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.4128786623477936
+    }
+  },
+  {
+    "text": "Give me a did you know trivia about food",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.47820326685905457
+    }
+  },
+  {
+    "text": "Why is India so hot?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6671957969665527
+    }
+  },
+  {
+    "text": "Tell me a food joke",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.4128786623477936
+    }
+  },
+  {
+    "text": "What can you tell me about Pino Noir",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "know_equipment",
+      "confidence": 0.2544703781604767
+    }
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9974157810211182
+    }
+  },
+  {
+    "text": "No using gluten for my recipes",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.590143620967865
+    }
+  },
+  {
+    "text": "Peanuts makes me flare up",
+    "intent": "get_intolerances",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3773163855075836
+    }
+  },
+  {
+    "text": "I am craving for a good smoked salmon",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.3821326494216919
+    }
+  },
+  {
+    "text": "interested in salad",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.4527398347854614
+    }
+  },
+  {
+    "text": "french fries",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "confirm_recipe_items",
+      "confidence": 0.2796684503555298
+    }
+  },
+  {
+    "text": "how about we bake a pizza",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9993058443069458
+    }
+  },
+  {
+    "text": "interested to know how to make chicken breasts",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9751561284065247
+    }
+  },
+  {
+    "text": "how to bake Homemade Macaroni and Cheese Muffin Cups",
+    "intent": "cook",
+    "intent_prediction": {
+      "name": "get_info_questions",
+      "confidence": 0.9365845918655396
+    }
+  },
+  {
+    "text": "Au revoir",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.25898468494415283
+    }
+  },
+  {
+    "text": "buhbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.37184157967567444
+    }
+  },
+  {
+    "text": "see you in a while",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5383918881416321
+    }
+  }
+]

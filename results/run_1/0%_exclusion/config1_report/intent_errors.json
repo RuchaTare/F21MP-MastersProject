@@ -1,0 +1,130 @@
+[
+  {
+    "text": "I want to go with D",
+    "intent": "get_recipeid",
+    "intent_prediction": {
+      "name": "cook",
+      "confidence": 0.4746721386909485
+    }
+  },
+  {
+    "text": "Alana stands fr?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "get_recipeid",
+      "confidence": 0.42989563941955566
+    }
+  },
+  {
+    "text": "give only first only",
+    "intent": "get_n_step",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.41915494203567505
+    }
+  },
+  {
+    "text": "Give me list ofsteps",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "know_ingredients",
+      "confidence": 0.36839407682418823
+    }
+  },
+  {
+    "text": "AO",
+    "intent": "know_steps",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5796548128128052
+    }
+  },
+  {
+    "text": "I dont think I have grill Can I use anything?",
+    "intent": "know_equipment",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.8601902723312378
+    }
+  },
+  {
+    "text": "p",
+    "intent": "get_sort_type",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.9025605320930481
+    }
+  },
+  {
+    "text": "I dont like sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_intolerances",
+      "confidence": 0.8987880349159241
+    }
+  },
+  {
+    "text": "I am on a diet , I cannot eat sugar",
+    "intent": "get_substitute_ingredient",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9110399484634399
+    }
+  },
+  {
+    "text": "heller",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "get_substitute_ingredient",
+      "confidence": 0.8447621464729309
+    }
+  },
+  {
+    "text": "just wanted to say hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9997124075889587
+    }
+  },
+  {
+    "text": "Is egg vegetarian?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9448595643043518
+    }
+  },
+  {
+    "text": "Is falafel vegan?",
+    "intent": "get_info_questions",
+    "intent_prediction": {
+      "name": "get_dietary_req",
+      "confidence": 0.9979372024536133
+    }
+  },
+  {
+    "text": "cheers",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9991648197174072
+    }
+  },
+  {
+    "text": "it was nice to see you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6833783388137817
+    }
+  },
+  {
+    "text": "Ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9994640946388245
+    }
+  }
+]

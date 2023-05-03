@@ -1,0 +1,639 @@
+[
+  {
+    "text": "go to top",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "top",
+        "entity": "current_step_no"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "po",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "po",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Heathiest recipe",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Heathiest",
+        "entity": "sort_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is salt being used?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "salt",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to know if we are in need of almond flour",
+    "entities": [
+      {
+        "start": 36,
+        "end": 48,
+        "value": "almond flour",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 36,
+        "end": 48,
+        "confidence_entity": 0.875800408423511,
+        "value": "almond flour",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "are we using oven here?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "oven",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "it contains sea salt?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "sea salt",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.5034614089143357,
+        "value": "salt",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "has basil?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "basil",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "it needs strainer",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "strainer",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "it might need cacao nibs right?",
+    "entities": [
+      {
+        "start": 14,
+        "end": 24,
+        "value": "cacao nibs",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "did it contain chickpeas?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "chickpeas",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "did you say cookie cutter?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 25,
+        "value": "cookie cutter",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "will this recipe have salt",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "salt",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sub_ingredients",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.878394436388609,
+        "value": "salt",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "was it aluminium foil?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 21,
+        "value": "aluminium foil",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Did you say honey",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "honey",
+        "entity": "recipe_item"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "don't have baking soda",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "baking soda",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Absolutely hate cabbagge give something else",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "cabbagge",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "instead of mustard give alternative",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "mustard",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "need options for not having eggs",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "eggs",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.6149918323355028,
+        "value": "Eggs",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "what if I dont have olive oil",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "olive oil",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.41432955547812195,
+        "value": "oil",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "suggest options for butternut squash",
+    "entities": [
+      {
+        "start": 20,
+        "end": 36,
+        "value": "butternut squash",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 20,
+        "end": 36,
+        "confidence_entity": 0.7575282550614827,
+        "value": "butternut squash",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "needs options for celery",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "celery",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "change onion",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "onion",
+        "entity": "sub_ingredients"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I believe in Veganism",
+    "entities": [
+      {
+        "start": 13,
+        "end": 21,
+        "value": "Veganism",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "3. GlutenFree",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "3. GlutenFree",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "intolerances",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.5858479462716246,
+        "value": "Gluten Free",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I have a vegan lifestyle",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "vegan",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I prefer veggies food than meant",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "veggies",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Give me vegan only recipes",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "vegan",
+        "entity": "dietary_req"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is it traditional to use coconut milk in Thai curry?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 25,
+        "end": 37,
+        "confidence_entity": 0.9929454973765328,
+        "value": "coconut milk",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What are some ways to use kale in cooking?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "recipe_item",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.8399745540084399,
+        "value": "kale",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Dont recommend me diary recipes",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "diary",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I have nut allergy",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "nut",
+        "entity": "intolerances"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.31413368208771836,
+        "value": "Peanut",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I cook basil pesto",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "value": "basil pesto",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "recipename",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.43867006206914805,
+        "value": "basil",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "I want to cook sushi",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "sushi",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you help me with making chicken wings",
+    "entities": [
+      {
+        "start": 28,
+        "end": 41,
+        "value": "chicken wings",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "guess who is cooking spinach pesto today?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 34,
+        "value": "spinach pesto",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tomato sauce",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "tomato sauce",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am confused about salad dressings",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "salad dressings",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Anything that has fish",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "fish",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am craving for a good smoked salmon",
+    "entities": [
+      {
+        "start": 24,
+        "end": 37,
+        "value": "smoked salmon",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I cook bread",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "bread",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tell the recipe for soup",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "soup",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do you know cooking Rice Stuffed Bell Peppers",
+    "entities": [
+      {
+        "start": 20,
+        "end": 45,
+        "value": "Rice Stuffed Bell Peppers",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need help with making shortbread",
+    "entities": [
+      {
+        "start": 24,
+        "end": 34,
+        "value": "shortbread",
+        "entity": "recipename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,440 @@
+version: "3.1"
+
+stories:
+- story: Usual Path with all possible actions 
+  steps:
+  - user: |
+      hello
+  - intent: greet
+  - action: utter_greet
+  - user: |
+      I want to cook [Pizza]{"entity": ""}
+  - intent: cook
+    entities:
+    - recipename: pasta
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: Vegetarian
+  - slot_was_set:
+    - dietary_req: Vegetarian
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: No Intolerances
+  - slot_was_set: 
+    - intolerances: No Intolerances
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: healthiness
+  - slot_was_set: 
+    - sort_type: healthiness
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities: 
+    - recipe_id: '654959'
+  - slot_was_set:
+    - recipe_id: '654959'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: know_ingredients
+  - action: action_get_ingredients
+  - intent: confirm_recipe_items
+  - action: action_confirm_recipe_items
+  - intent: know_equipment
+  - action: action_get_equipment
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+  - intent: know_steps
+  - action: action_get_all_steps
+  - intent: get_next_step
+  - action: action_get_next_step
+  - intent: get_previous_step
+  - action: action_get_previous_step
+  - intent: get_n_step
+  - action: action_get_n_step
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Path 2 - Asking for equipment related actions 
+  steps:
+  - intent: cook
+    entities:
+    - recipename: hummus
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: Vegetarian
+  - slot_was_set:
+    - dietary_req: Vegetarian
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: Peanut
+  - slot_was_set: 
+    - intolerances: Peanut
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: random
+  - slot_was_set: 
+    - sort_type: random
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities: 
+    - recipe_id: '654959'
+  - slot_was_set:
+    - recipe_id: '654959'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: confirm_recipe_items
+  - action: action_confirm_recipe_items
+  - intent: know_equipment
+  - action: action_get_equipment
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Path 3 - Ingredient related actions 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cook
+    entities:
+    - recipename: pasta
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: Vegetarian
+  - slot_was_set:
+    - dietary_req: Vegetarian
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: No Intolerances
+  - slot_was_set: 
+    - intolerances: No Intolerances
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: popularity
+  - slot_was_set: 
+    - sort_type: popularity
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities: 
+    - recipe_id: '654959'
+  - slot_was_set:
+    - recipe_id: '654959'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: know_ingredients
+  - action: action_get_ingredients
+  - intent: confirm_recipe_items
+  - action: action_confirm_recipe_items
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+  
+
+
+
+- story: Path 4 - Steps related Actions 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cook
+    entities:
+    - recipename: pasta
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: Vegetarian
+  - slot_was_set:
+    - dietary_req: Vegetarian
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: No Intolerances
+  - slot_was_set: 
+    - intolerances: No Intolerances
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: healthiness
+  - slot_was_set: 
+    - sort_type: healthiness
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities: 
+    - recipe_id: '654959'
+  - slot_was_set:
+    - recipe_id: '654959'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: know_steps
+  - action: action_get_all_steps
+  - intent: get_next_step
+  - action: action_get_next_step
+  - intent: get_previous_step
+  - action: action_get_previous_step
+  - intent: get_n_step
+  - action: action_get_n_step
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Path 5 - User only asks general info questions and leaves
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Path 6 - User only asks general info questions and leaves
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Path 7 - User only asks substitute  questions and leaves
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Path 8 - User asks substitute questions first
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+  - intent: cook
+    entities:
+    - recipename: tiramisu
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: Vegetarian
+  - slot_was_set:
+    - dietary_req: Vegetarian
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: No Intolerances
+  - slot_was_set: 
+    - intolerances: No Intolerances
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: healthiness
+  - slot_was_set: 
+    - sort_type: healthiness
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities: 
+    - recipe_id: '654959'
+  - slot_was_set:
+    - recipe_id: '654959'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: know_ingredients
+  - action: action_get_ingredients
+  - intent: confirm_recipe_items
+  - action: action_confirm_recipe_items
+  - intent: know_equipment
+  - action: action_get_equipment
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+  - intent: know_steps
+  - action: action_get_all_steps
+  - intent: get_next_step
+  - action: action_get_next_step
+  - intent: get_previous_step
+  - action: action_get_previous_step
+  - intent: get_n_step
+  - action: action_get_n_step
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+
+- story: Path 9 - User asks info questions first 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: cook
+    entities:
+    - recipename: pasta
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: Vegetarian
+  - slot_was_set:
+    - dietary_req: Vegetarian
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: No Intolerances
+  - slot_was_set: 
+    - intolerances: No Intolerances
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: healthiness
+  - slot_was_set: 
+    - sort_type: healthiness
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities: 
+    - recipe_id: '654959'
+  - slot_was_set:
+    - recipe_id: '654959'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: know_ingredients
+  - action: action_get_ingredients
+  - intent: confirm_recipe_items
+  - action: action_confirm_recipe_items
+  - intent: know_equipment
+  - action: action_get_equipment
+  - intent: get_substitute_ingredient
+  - action: action_get_ingredient_substitute
+  - intent: know_steps
+  - action: action_get_all_steps
+  - intent: get_next_step
+  - action: action_get_next_step
+  - intent: get_previous_step
+  - action: action_get_previous_step
+  - intent: get_n_step
+  - action: action_get_n_step
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
+
+- story: Good Conversation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: cook
+    entities:
+    - recipename: banana bread
+  - slot_was_set:
+    - recipename: banana bread
+  - action: utter_acknowledge
+  - action: utter_ask_diet_req
+  - intent: get_dietary_req
+    entities:
+    - dietary_req: No dietary requirements
+  - slot_was_set:
+    - dietary_req: No dietary requirements
+  - action: utter_ask_intolerances
+  - intent: get_intolerances
+    entities:
+    - intolerances: No intolerences
+  - slot_was_set:
+    - intolerances: No intolerences
+  - action: utter_sort_type
+  - intent: get_sort_type
+    entities:
+    - sort_type: popularity
+  - slot_was_set:
+    - sort_type: popularity
+  - action: utter_wait
+  - action: action_get_recipe
+  - intent: get_recipeid
+    entities:
+    - recipe_id: '665182'
+  - slot_was_set:
+    - recipe_id: '665182'
+  - action: action_search_recipe
+  - action: utter_choices
+  - intent: know_equipment
+  - action: action_get_equipment
+  - intent: confirm_recipe_items
+    entities:
+    - recipe_item: oven
+  - slot_was_set:
+    - recipe_item: oven
+  - action: action_confirm_recipe_items
+  - intent: confirm_recipe_items
+    entities:
+    - recipe_item: loaf pan
+  - slot_was_set:
+    - recipe_item: loaf pan
+  - action: action_confirm_recipe_items
+  - intent: know_ingredients
+  - action: action_get_ingredients
+  - intent: get_substitute_ingredient
+    entities:
+    - sub_ingredients: baking soda
+  - slot_was_set:
+    - sub_ingredients: baking soda
+  - action: action_get_ingredient_substitute
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: confirm_recipe_items
+    entities:
+    - recipe_item: salt
+  - slot_was_set:
+    - recipe_item: salt
+  - action: action_confirm_recipe_items
+  - intent: know_steps
+  - action: action_get_all_steps
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: get_n_step
+  - action: action_get_n_step
+  - intent: get_n_step
+    entities:
+    - current_step_no: '3'
+  - slot_was_set:
+    - current_step_no: '3'
+  - action: action_get_n_step
+  - slot_was_set:
+    - current_step_no: 2
+  - intent: know_equipment
+  - action: action_get_equipment
+  - intent: confirm_recipe_items
+    entities:
+    - recipe_item: chocolate chips
+  - slot_was_set:
+    - recipe_item: chocolate chips
+  - action: action_confirm_recipe_items
+  - intent: get_info_questions
+  - action: action_get_info_questions
+  - intent: get_next_step
+  - action: action_get_next_step
+  - slot_was_set:
+    - current_step_no: 3
+  - intent: goodbye
+  - action: utter_goodbye
+  - action: action_restart
