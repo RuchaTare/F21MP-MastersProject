@@ -1,14 +1,14 @@
 # F21MP-MastersProject
 ## Problem Statement: To build a conversational AI to give recipes, ingredients, equipment and any trivia related to the recipes. The agent was able to give recipes based on dietary requirements and allergies. 
 ## Tech Stack 
-RASA NLU - For Language understanding
-	• Rasa core
-	• RASA’s pipeline - DIET Classifier and BERT. 
-	• Spooncular API was used as a database using its request response model  and payload 
-	• Prompt Engineering using Open AI’s LLM - text-davinci-001 to enable general-purpose question-answering
-	• Python
-	• Slack - Ngrok acts as remote server to deploy 
-	• Alana proprietary code 
+ - RASA NLU - For Language understanding
+ - Rasa core
+ - RASA’s pipeline - DIET Classifier and BERT.
+ - Spooncular API was used as a database using its request response model  and payload
+ - Prompt Engineering using Open AI’s LLM - text-davinci-001 to enable general-purpose question-answering
+ - Python
+ - Slack - Ngrok acts as remote server to deploy
+ -  Alana proprietary code 
 ## Data and strategy 
 	• Intent classification and Entity Recognition: Leveraged RASA NLU component(Data, rules, policies) giving manual data examples to understand intent and entity
 	• Custom actions
