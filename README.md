@@ -1,5 +1,8 @@
-# F21MP-MastersProject
+# Visual Conversational AI for Assisted Cooking
 ## Problem Statement: To build a conversational AI to give recipes, ingredients, equipment and any trivia related to the recipes. The agent was able to give recipes based on dietary requirements and allergies. 
+The aim of this project was to explore how to develop a text-based conversation agent that could be integrated with Alana AI's ensemble of bots. This system could be used to assist users in the kitchen by getting recipe instructions based on the
+user’s dietary information, and allergen information, finding objects around the kitchen and getting open-domain information about recipes and ingredients. This agent was built on RASA Bocklisch et al. (2017) exploiting their natural language understanding
+and dialogue management module with a hybrid of rule-based and machine learning approaches. Pre-trained GPT-3 model and spooncular API were leveraged as data sources.
 ## Tech Stack 
  - RASA NLU - For Language understanding
  - Rasa core
